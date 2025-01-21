@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  cursor: pointer !important;
+}
+.back-gradient {
+  background-image: linear-gradient(
+    to right top,
+    #232d4c,
+    #28355a,
+    #2c3d69,
+    #314578,
+    #354e87,
+    #445c94,
+    #536aa1,
+    #6278ae,
+    #7e90bb,
+    #9ba8c9,
+    #b8c1d6,
+    #d6dae3
+  );
+}
+b {
+  color: #3872e5;
+  font-weight: 600;
+}
+.section-spacing-top-btm {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    width: 90% !important;
+  }
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
