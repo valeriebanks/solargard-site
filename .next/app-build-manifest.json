@@ -52,6 +52,21 @@
       "static/chunks/main-app.js",
       "static/css/app/Solar-Films/page.css",
       "static/chunks/app/Solar-Films/page.js"
+    ],
+    "/Vehicle-Wrapping/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Vehicle-Wrapping/page.js"
+    ],
+    "/Solar-spec-page/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Solar-spec-page/[slug]/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

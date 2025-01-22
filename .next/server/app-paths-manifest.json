@@ -1,10 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/Casper/page": "app/Casper/page.js",
-  "/Vehicle-tinting/page": "app/Vehicle-tinting/page.js",
-  "/CoverStyl/page": "app/CoverStyl/page.js",
-  "/Contact-Us/page": "app/Contact-Us/page.js",
   "/Safety-Films/page": "app/Safety-Films/page.js",
-  "/Privacy-Films/page": "app/Privacy-Films/page.js",
-  "/Solar-Films/page": "app/Solar-Films/page.js"
+  "/Solar-Films/page": "app/Solar-Films/page.js",
+  "/Vehicle-Wrapping/page": "app/Vehicle-Wrapping/page.js",
+  "/Casper/page": "app/Casper/page.js",
+  "/Solar-spec-page/[slug]/page": "app/Solar-spec-page/[slug]/page.js"
 }

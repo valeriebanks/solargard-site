@@ -6,8 +6,7 @@ export const solarFilmsData = [
     name: "Alu 50 XC",
     slug: "alu-50-xc",
     category: "Exterior Mirror",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/qp0ocifmebjkjw6es2e0s/Alu_50_XC.pdf?rlkey=p18oauivb21kuu9znk1ml18bv&st=e3hbhy3e&dl=0",
+    PDFDownloadLink: "/PDF/Solar-films-spec/Alu_50_XC.pdf",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-02.jpg",
     EnergyRejectedValue: "49",
