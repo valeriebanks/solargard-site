@@ -25,15 +25,12 @@ export default function SolarFilmPage({ params }) {
   // If no product is found, show 404
 
   const handleDownload = () => {
-    // Set the path to the PDF file in the public folder
-    const pdfPath = `/PDFs/Solar-films-spec/${product.slug}.pdf`;
-    // Create a temporary link element
     const link = document.createElement("a");
-    link.href = pdfPath;
-    link.download = `${product.name.replace(/\s+/g, "_")}.pdf`; // Set the download attribute with a dynamic filename
+    link.href = product.PDFDownloadLink; // Use the PDFDownloadLink directly
+    link.download = product.name + ".pdf"; // Set a meaningful name for the downloaded file
     document.body.appendChild(link);
-    link.click(); // Trigger the download
-    document.body.removeChild(link); // Clean up
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
