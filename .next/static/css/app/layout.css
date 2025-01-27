@@ -6064,10 +6064,6 @@ b {
     display: none;
   }
 
-  .xl\:h-80 {
-    height: 20rem;
-  }
-
   .xl\:h-60 {
     height: 15rem;
   }
@@ -6100,6 +6096,11 @@ b {
     width: calc(25% - 12px);
   }
 
+  .xl\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
   .xl\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -6113,11 +6114,6 @@ b {
   .xl\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
-  }
-
-  .xl\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
   }
 
   .xl\:text-2xl {
@@ -6204,6 +6200,11 @@ b {
     padding-right: 0px;
   }
 
+  .xxl\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .xxl\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -6217,11 +6218,6 @@ b {
   .xxl\:py-56 {
     padding-top: 14rem;
     padding-bottom: 14rem;
-  }
-
-  .xxl\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   }
 
   .xxl\:pb-60 {

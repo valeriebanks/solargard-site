@@ -768,7 +768,7 @@ export const manifestData = [
     name: "Lineal",
     slug: "Lineal",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Lineal.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Lineal.pdf",
     FilmDescription:
       "The Lineal decorative film, featuring a pattern of opaque horizontal bands, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Lineal.jpg",
@@ -806,7 +806,7 @@ export const manifestData = [
     name: "Sirius",
     slug: "Sirius",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Sirius.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Sirius.pdf",
     FilmDescription:
       "The Sirius decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 18 mm frosted bands arranged horizontally and separated by 6 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/sirius.jpg",
@@ -845,7 +845,7 @@ export const manifestData = [
     name: "Stratos",
     slug: "Stratos",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Stratos.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Stratos.pdf",
     FilmDescription:
       "The Stratos decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 35 mm frosted bands arranged horizontally and separated by 10 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/sratos.jpg",
@@ -884,7 +884,7 @@ export const manifestData = [
     name: "Europa",
     slug: "Europa",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Europa.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Europa.pdf",
     FilmDescription:
       "The Europa decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 44mm frosted bands arranged horizontally and separated by 10 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/europa.jpg",
@@ -923,7 +923,7 @@ export const manifestData = [
     name: "Structur",
     slug: "Structur",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Structur.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Structur.pdf",
     FilmDescription:
       "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/structur.jpg",
@@ -962,7 +962,7 @@ export const manifestData = [
     name: "Strada",
     slug: "Strada",
     category: "Frost Lines",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Strada.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Strada.pdf",
     FilmDescription:
       "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/strada.jpg",
@@ -1001,7 +1001,7 @@ export const manifestData = [
     name: "Luserna",
     slug: "Luserna",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Luserna.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Luserna.pdf",
     FilmDescription:
       "The self-adhesive Luserna film features a high grass motif, evoking a sense of the great outdoors through your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/luserna.jpg",
@@ -1040,7 +1040,7 @@ export const manifestData = [
     name: "Savanva",
     slug: "Savanva",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Savana.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Savana.pdf",
     FilmDescription:
       "The self-adhesive Savana film is decorated with an African grassland-inspired pattern, affording a vibrant touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/savana.jpg",
@@ -1079,7 +1079,7 @@ export const manifestData = [
     name: "Swing",
     slug: "Swing",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Swing.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Swing.pdf",
     FilmDescription:
       "The Swing decorative film allows you to effectively customize your windows and glass partitions. It is decorated with vertically aligned string-like frosted bands.",
     image: "/images/manif-graphics-imgs/films-pics/swing.jpg",
@@ -1118,7 +1118,7 @@ export const manifestData = [
     name: "Vitra",
     slug: "Vitra",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Vitra.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Vitra.pdf",
     FilmDescription:
       "The self-adhesive Vitra film is decorated with a repeating polygonal pattern, providing a modern touch of elegance to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/vitra.jpg",
@@ -1157,7 +1157,7 @@ export const manifestData = [
     name: "City",
     slug: "City",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/City.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/City.pdf",
     FilmDescription:
       "The City decorative film, featuring a city-scape pattern, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/city.jpg",
@@ -1196,7 +1196,7 @@ export const manifestData = [
     name: "Manhattan",
     slug: "Manhattan",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Manhattan.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Manhattan.pdf",
     FilmDescription:
       "Featuring a city-scape pattern, the self-adhesive Manhattan film will give an urban touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/manhattan.jpg",
@@ -1235,7 +1235,7 @@ export const manifestData = [
     name: "Bilbao",
     slug: "Bilbao",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Bibao.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Bibao.pdf",
     FilmDescription:
       "With its discontinuous lines, the Bilbao self-adhesive film will allow you to tastefully customise windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/bilbao.jpg",
@@ -1274,7 +1274,7 @@ export const manifestData = [
     name: "Riga",
     slug: "Riga",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Riga.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Riga.pdf",
     FilmDescription:
       "With its discontinuous lines, the Bilbao self-adhesive film will allow you to tastefully customise windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/riga.jpg",
@@ -1313,7 +1313,7 @@ export const manifestData = [
     name: "Liana",
     slug: "Liana",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Liana.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Liana.pdf",
     FilmDescription:
       "The self-adhesive Liana film features a vine-like pattern, lending a touch of the wild to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Liana.jpg",
@@ -1353,7 +1353,7 @@ export const manifestData = [
     name: "Basic",
     slug: "Basic",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Basic.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Basic.pdf",
     FilmDescription:
       "The Basic decorative film allows you to effectively personalise your windows and glass partitions. With its frosted glass effect, this film was initially conceived as a complement to other frosted effect films.",
     image: "/images/manif-graphics-imgs/films-pics/Basic.jpg",
@@ -1393,7 +1393,7 @@ export const manifestData = [
     name: "Classic",
     slug: "Classic",
     category: "Frost Themes",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Classic.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Classic.pdf",
     FilmDescription:
       "The Classic decorative film allows you to effectively personalise your windows and glass partitions. It provides privacy thanks to its frosted aspect angel hair effect patterning.",
     image: "/images/manif-graphics-imgs/films-pics/Classic.jpg",
@@ -1433,7 +1433,7 @@ export const manifestData = [
     name: "Block",
     slug: "Block",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Block.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Block.pdf",
     FilmDescription:
       "The Block decorative film allows you to effectively personalise your windows and glass partitions. Block is a decorative film featuring a pattern of 180 x 180mm frosted squares defined by 10 mm lighter aspect bands around their perimeters.",
     image: "/images/manif-graphics-imgs/films-pics/block.jpg",
@@ -1471,7 +1471,7 @@ export const manifestData = [
     name: "Claustra",
     slug: "Claustra",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Claustra.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Claustra.pdf",
     FilmDescription:
       "The Claustra decorative film allows you to effectively personalise your windows and glass partitions. Claustra is a decorative film featuring a pattern of 44 x 44mm frosted squares defined by 10 mm lighter aspect bands around their perimeters.",
     image: "/images/manif-graphics-imgs/films-pics/claustra.jpg",
@@ -1511,7 +1511,7 @@ export const manifestData = [
     name: "Figaro",
     slug: "Figaro",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Figaro.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Figaro.pdf",
     FilmDescription:
       "Featuring frosted motifs of architectural forms, the Figaro decorative film allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/figaro.jpg",
@@ -1551,7 +1551,7 @@ export const manifestData = [
     name: "Tecno",
     slug: "Tecno",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Tecno.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Tecno.pdf",
     FilmDescription:
       "The Tecno decorative film allows you to effectively customize your windows and glass partitions. A frosted film accentuated by small clear 3 x 3 cm squares.",
     image: "/images/manif-graphics-imgs/films-pics/tecno.jpg",
@@ -1591,7 +1591,7 @@ export const manifestData = [
     name: "Floris",
     slug: "Floris",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Floris.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Floris.pdf",
     FilmDescription:
       "The Floris decorative film features a white floral design. Floris window films allow you to tastefully customize windows and partitions.",
     image: "/images/manif-graphics-imgs/films-pics/floris.jpg",
@@ -1631,7 +1631,7 @@ export const manifestData = [
     name: "Floral",
     slug: "Floral",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Floral.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Floral.pdf",
     FilmDescription:
       "The Floral decorative film features a pattern evocative of the spring season, affording an arboreous touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/floral.jpg",
@@ -1671,7 +1671,7 @@ export const manifestData = [
     name: "Atoma",
     slug: "Atoma",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Atoma.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Atoma.pdf",
     FilmDescription:
       "Atoma is a decorative film, featuring a frosted scale effect pattern, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/atoma.jpg",
@@ -1711,7 +1711,7 @@ export const manifestData = [
     name: "Luna",
     slug: "Luna",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Luna.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Luna.pdf",
     FilmDescription:
       "Atoma is a decorative film, featuring a frosted scale effect pattern, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/luna.jpg",
@@ -1749,7 +1749,7 @@ export const manifestData = [
     name: "Terra",
     slug: "Terra",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Terra.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Terra.pdf",
     FilmDescription:
       "Terra is a decorative film, featuring a pattern of irregular shaped frosted scales, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/terra.jpg",
@@ -1789,7 +1789,7 @@ export const manifestData = [
     name: "Pixel",
     slug: "Pixel",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Pixel.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Pixel.pdf",
     FilmDescription:
       "The Pixel decorative film, featuring a graduated pattern of squares, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/pixel.jpg",
@@ -1827,7 +1827,7 @@ export const manifestData = [
     name: "Fontana",
     slug: "Fontana",
     category: "Frost Forms",
-    PDFDownloadLink: "h/PDF/Manifestations-specs/Frost-Forms/Fontana.pdf",
+    PDFDownloadLink: "h/PDF/Manifestations-specs/Frosted-Forms/Fontana.pdf",
     FilmDescription:
       "The Fontana decorative film allows you to effectively personalise your windows and glass partitions. The film is decorated with a graduated white mottled effect pattern reminiscent of a fountain, arranged in vertical bands.",
     image: "/images/manif-graphics-imgs/films-pics/fontana.jpg",
@@ -1867,7 +1867,7 @@ export const manifestData = [
     name: "Elektro",
     slug: "Elektro",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Elektro.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Elektro.pdf",
     FilmDescription:
       "The Elektro decorative film, featuring a large oscillating wave pattern, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Elektro.jpg",
@@ -1905,7 +1905,7 @@ export const manifestData = [
     name: "Cortina",
     slug: "Cortina",
     category: "Frost Forms",
-    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Coratina.pdf",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Coratina.pdf",
     FilmDescription:
       "The Cortina decorative film, featuring frosted effect waves arranged in columns, allows you to customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/cortina.jpg",
