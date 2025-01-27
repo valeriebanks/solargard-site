@@ -166,7 +166,7 @@ export default function ServiceCardGrid() {
 
   return (
     <div className="w-full bg-grey">
-      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-9/12 sm:w-11/12 mx-auto">
+      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-9/12 sm:w-11/12 xxl:py-32 xl:py-28 lg:py-36 mx-auto">
         <div>
           <h2 className="mb-4 text-4xl font-bold text-secondary">
             Our Services
@@ -179,7 +179,7 @@ export default function ServiceCardGrid() {
               className="relative bg-cover bg-center flex flex-col overflow-hidden"
               ref={(el) => (containerRefs.current[index] = el)}
             >
-              <div className="relative rounded-lg xl:h-80 lg:h-48 md:h-400 sm:h-44 overflow-hidden">
+              <div className="relative rounded-lg xxl:h-60 xl:h-60 lg:h-48 md:h-400 sm:h-44 overflow-hidden">
                 <Image
                   className="rounded-lg"
                   src={data.imageUrl}

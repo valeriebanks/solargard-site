@@ -4,8 +4,7 @@ export const manifestData = [
     name: "Mat White",
     slug: "Mat-White",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/gytqqhrfw40ae0jqu8avy/Mat_White.pdf?rlkey=6m5y9my84perg4gz93qu3n4c9&st=x5xj0tch&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_White.pdf",
     FilmDescription:
       "Mat White privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through.",
     image: "/images/manif-graphics-imgs/films-pics/mat-white.jpg",
@@ -45,8 +44,7 @@ export const manifestData = [
     name: "Mat Frost",
     slug: "Mat-Frost",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/aiaulpt36t7qlzmaa4tob/Mat_Frost.pdf?rlkey=m162y5prizlcpdyml8o5oh364&st=68ndyqom&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Frost.pdf",
     FilmDescription:
       "Mat Frosted privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. With disposable plastic liner or silicone paper liner for digital cutting.",
     image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
@@ -86,8 +84,7 @@ export const manifestData = [
     name: "Mat Acid X",
     slug: "Mat-Acid-X",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/elihz2gou1qhgjta5jqxa/Mat_Acid-X.pdf?rlkey=gpyya8gzjylarqirdz1bcnhef&st=4d1i5zcf&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Acid-X.pdf",
     FilmDescription:
       "Mat Frosted privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. With disposable plastic liner or silicone paper liner for digital cutting.",
     image: "/images/manif-graphics-imgs/films-pics/mat-acid-x.jpeg",
@@ -127,8 +124,7 @@ export const manifestData = [
     name: "Mat Opal",
     slug: "Mat-Opal",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/hx9ml4xqpiiv1yioqx0x9/Mat_Opal.pdf?rlkey=40hvxqh7mtrhzigsnily941wb&st=vsuxgnan&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Opal.pdf",
     FilmDescription:
       "Mat Opal privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film filters out most natural light creating subtle ambient lighting conditions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-opal.jpg",
@@ -168,8 +164,7 @@ export const manifestData = [
     name: "Mat Star",
     slug: "Mat-star",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/4ulzizd6nlhgvc4y4wmy0/Mat_Star.pdf?rlkey=id3hr3ggfs69y5skxr0mpdxig&st=cdntdsif&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Star.pdf",
     FilmDescription:
       "Mat Star privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film filters out most natural light creating subtle ambient lighting conditions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-star.jpg",
@@ -209,8 +204,7 @@ export const manifestData = [
     name: "Mat Acid Grey",
     slug: "Mat-Acid-Grey",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/9o3rzkho8042yal9zb4rk/Mat_Acid_Grey.pdf?rlkey=jm32zmuuqqc2v8wtusy2q9pts&st=cpynju96&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Acid_Grey.pdf",
     FilmDescription:
       "Mat Acid Grey privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. In addition, its slightly grey appearance will soothe the eye compared to a white film.",
     image: "/images/manif-graphics-imgs/films-pics/mat-acid-x.jpeg",
@@ -251,7 +245,7 @@ export const manifestData = [
     slug: "Mat-Frost-Static",
     category: "Opalescent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/u52bge1u57gnkrkj68p8i/Mat_Frost_Static.pdf?rlkey=pixb5c4gyz7v975f0qr2qs48d&st=duyexzro&dl=0",
+      "/PDF/Manifestations-specs/Opalescent/Mat_Frost_Static.pdf",
     FilmDescription:
       "Mat Frosted Static privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. With disposable plastic liner. In addition, this static version is easy ton install.",
     image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
@@ -291,8 +285,7 @@ export const manifestData = [
     name: "Mat Acid",
     slug: "Mat-Acid",
     category: "Opalescent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/yh9y796a2mpqs0j92pc43/Mat_Acid.pdf?rlkey=i1xafx5uagoi638brbi6q6vp7&st=44u04bow&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Acid.pdf",
     FilmDescription:
       "Mat Acid privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. Printable on any type of machine.",
     image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
@@ -333,7 +326,7 @@ export const manifestData = [
     slug: "Mat-Acid-Bubble-Free",
     category: "Opalescent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/l6mrfq5zwlnowa16i1qp3/Mat_Acid_Bubble_Free.pdf?rlkey=ssk7qh574ifmcqwv4e71zu8t7&st=t5qnb8av&dl=0",
+      "/PDF/Manifestations-specs/Opalescent/Mat_Acid_Bubble_Free.pdf",
     FilmDescription:
       "Mat Acid privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. Printable on any type of machine.",
     image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
@@ -373,8 +366,7 @@ export const manifestData = [
     name: "Mat Bronze",
     slug: "Mat-Bronze",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/3162jutanyxdps76ndaal/Mat_Bronze.pdf?rlkey=ra9utd3v68jtq10z6l28siq82&st=doyuy3c9&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Bronze.pdf",
     FilmDescription:
       "Mat Bronze privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through creating subtle ambient lighting conditions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-bronze.jpg",
@@ -414,8 +406,7 @@ export const manifestData = [
     name: "Mat Grey",
     slug: "Mat-Grey",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/3ch5u26rdmcuvngaoncx0/Mat_Grey.pdf?rlkey=alou534w0yjy2ov2f0udr1au4&st=l8plwxno&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Grey.pdf",
     FilmDescription:
       "Mat Grey privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film filters out most natural light creating subtle ambient lighting conditions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-grey.jpg",
@@ -455,8 +446,7 @@ export const manifestData = [
     name: "Mat Metal",
     slug: "Mat-Metal",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/gg77e0azuml24ten7hgsd/Mat_Metal.pdf?rlkey=l18en6h6q79us2ktxluqyb653&st=jzojq2on&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Metal.pdf",
     FilmDescription:
       "Mat Metal privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film filters out most natural light creating subtle ambient lighting conditions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-metal.jpg",
@@ -498,8 +488,7 @@ export const manifestData = [
     name: "Mat Green",
     slug: "Mat-Green",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ue4394x44d1nwg1hkgdbh/Mat_Green.pdf?rlkey=g4pdp8e7n13t3hnlh9u3i07sg&st=yct13r72&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Green.pdf",
     FilmDescription:
       "Applied to clear glass, the Mat Green film bestows a mat green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour",
     image: "/images/manif-graphics-imgs/films-pics/mat-green.jpg",
@@ -539,8 +528,7 @@ export const manifestData = [
     name: "Mat Pink",
     slug: "Mat-Pink",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/4f3s4mipz7ndo1bkoa0bv/Mat_Pink.pdf?rlkey=vzloopns6quco066jdojkflm4&st=1tbcwns1&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Pink.pdf",
     FilmDescription:
       "Applied to clear glass, the Mat Pink film bestows a mat pink tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/mat-pink.jpg",
@@ -580,8 +568,7 @@ export const manifestData = [
     name: "Mat Blue",
     slug: "Mat-Blue",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/1apa4b956yres2i54mpev/Mat_Blue.pdf?rlkey=3nrdpetvibf9m5572w5bgigza&st=gphtolz8&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Blue.pdf",
     FilmDescription:
       "Applied to clear glass, the Mat Blue film bestows a mat blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/mat-blue.jpg",
@@ -621,8 +608,7 @@ export const manifestData = [
     name: "Mat Yellow",
     slug: "Mat-Yellow",
     category: "Colour Mat",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/dzzv53ofn1mbkqb2pdj64/Mat_Yellow.pdf?rlkey=m5fn9wa5m2cjc8xfaqo4uerl4&st=x3wqelrp&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Yellow.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Mat Yellow film bestows a mat yellow tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/mat-yellow.jpg",
@@ -662,8 +648,7 @@ export const manifestData = [
     name: "Perla",
     slug: "Perla",
     category: "Frost Decreasing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/yb2ay2vmw9dwqbe6q7e5x/Perla.pdf?rlkey=30y4eq96t3tvoqokgeb97jaqs&st=khjm6h4r&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Decreasing/Perla.pdf",
     FilmDescription:
       "The self-adhesive Perla film is decorated with an ebbing granular motif that will allow you to tastefully customise windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/mat-perla.jpeg",
@@ -703,8 +688,7 @@ export const manifestData = [
     name: "Mystic",
     slug: "Mystic",
     category: "Frost Decreasing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/wnrf82e4lhgq7yu31uzic/Mystic.pdf?rlkey=tykr7h53q1czzrrqmzov0hnaz&st=3vhacy8e&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Decreasing/Mystic.pdf",
     FilmDescription:
       "Featuring a graduated frosted aspect over 120 cm, the Mystic decorative film allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/mystic.jpg",
@@ -744,8 +728,7 @@ export const manifestData = [
     name: "Futura",
     slug: "Futura",
     category: "Frost Decreasing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/k8ponnduxjldtdjbixng9/Futura.pdf?rlkey=nr90vht686tdkoflhtnc9vcbw&st=e812n667&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Decreasing/Futura.pdf",
     FilmDescription:
       "With its degraded wave motif, the self-adhesive Futura film will give a touch of the avant-garde to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/futura.jpg",
@@ -785,8 +768,7 @@ export const manifestData = [
     name: "Lineal",
     slug: "Lineal",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/hgprsd5dm2wpr8kfxjk46/Lineal.pdf?rlkey=0472wnjj4itrv5qrfzr5t92h8&st=byqlwihr&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Lineal.pdf",
     FilmDescription:
       "The Lineal decorative film, featuring a pattern of opaque horizontal bands, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Lineal.jpg",
@@ -824,8 +806,7 @@ export const manifestData = [
     name: "Sirius",
     slug: "Sirius",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/zygl8miz8uwclyzbd2y2q/Sirius.pdf?rlkey=f7s6hwldj36bqz2xiawre22ej&st=vdjs07t3&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Sirius.pdf",
     FilmDescription:
       "The Sirius decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 18 mm frosted bands arranged horizontally and separated by 6 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/sirius.jpg",
@@ -864,8 +845,7 @@ export const manifestData = [
     name: "Stratos",
     slug: "Stratos",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ho0upzfzks3zm6fusakt0/Stratos.pdf?rlkey=cwl63q85kr3yg9650b6k5i98i&st=q2zh9hzv&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Stratos.pdf",
     FilmDescription:
       "The Stratos decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 35 mm frosted bands arranged horizontally and separated by 10 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/sratos.jpg",
@@ -904,8 +884,7 @@ export const manifestData = [
     name: "Europa",
     slug: "Europa",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/onu6gvfzusbepfsih0cjv/Europa.pdf?rlkey=x4zai6vmql1tbrfn9rxd5j6cb&st=gnfakqge&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Europa.pdf",
     FilmDescription:
       "The Europa decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 44mm frosted bands arranged horizontally and separated by 10 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/europa.jpg",
@@ -944,8 +923,7 @@ export const manifestData = [
     name: "Structur",
     slug: "Structur",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/q8tv759hiapd808r97apg/Structur.pdf?rlkey=ipct4wjf30nunw4uwkwc15905&st=1lgn2bxq&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Structur.pdf",
     FilmDescription:
       "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/structur.jpg",
@@ -984,8 +962,7 @@ export const manifestData = [
     name: "Strada",
     slug: "Strada",
     category: "Frost Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/azrkmxd0r5ckaf0ha2h0q/Strada.pdf?rlkey=bskgc9mpn6so73wqzchsxd7f8&st=953hk94i&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Lines/Strada.pdf",
     FilmDescription:
       "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/strada.jpg",
@@ -1024,8 +1001,7 @@ export const manifestData = [
     name: "Luserna",
     slug: "Luserna",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/on3q12zqsz44r4rotlg6l/Luserna.pdf?rlkey=1s4k3ml2xgclavvkkjsr9840p&st=qgl72xyb&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Luserna.pdf",
     FilmDescription:
       "The self-adhesive Luserna film features a high grass motif, evoking a sense of the great outdoors through your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/luserna.jpg",
@@ -1064,8 +1040,7 @@ export const manifestData = [
     name: "Savanva",
     slug: "Savanva",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/krabi2m94o8l608wpg1t0/Savana.pdf?rlkey=5iyzkgkexs7sfl58fqjzukt86&st=3ba85nf4&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Savana.pdf",
     FilmDescription:
       "The self-adhesive Savana film is decorated with an African grassland-inspired pattern, affording a vibrant touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/savana.jpg",
@@ -1104,8 +1079,7 @@ export const manifestData = [
     name: "Swing",
     slug: "Swing",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/a323rv0ifhil58w75rdmm/Swing.pdf?rlkey=0qrm7scvsivw6csop2ezot0kh&st=sao0rdq6&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Swing.pdf",
     FilmDescription:
       "The Swing decorative film allows you to effectively customize your windows and glass partitions. It is decorated with vertically aligned string-like frosted bands.",
     image: "/images/manif-graphics-imgs/films-pics/swing.jpg",
@@ -1144,8 +1118,7 @@ export const manifestData = [
     name: "Vitra",
     slug: "Vitra",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/6zxfjpcqulgbahlday9ze/Vitra.pdf?rlkey=h34kcu9yy220sk5kzr67spyoe&st=d60f1i4s&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Vitra.pdf",
     FilmDescription:
       "The self-adhesive Vitra film is decorated with a repeating polygonal pattern, providing a modern touch of elegance to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/vitra.jpg",
@@ -1184,8 +1157,7 @@ export const manifestData = [
     name: "City",
     slug: "City",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/8e8okb9yrumet5vonwy0p/City.pdf?rlkey=osrvml5vefac3tv7sz144lkbc&st=1i8s3839&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/City.pdf",
     FilmDescription:
       "The City decorative film, featuring a city-scape pattern, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/city.jpg",
@@ -1224,8 +1196,7 @@ export const manifestData = [
     name: "Manhattan",
     slug: "Manhattan",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/tuc8iz5l3yst1i4u7xuyc/Manhattan.pdf?rlkey=cs6znpw1uq2wozzzia9lwv2ai&st=b5g4aluo&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Manhattan.pdf",
     FilmDescription:
       "Featuring a city-scape pattern, the self-adhesive Manhattan film will give an urban touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/manhattan.jpg",
@@ -1264,8 +1235,7 @@ export const manifestData = [
     name: "Bilbao",
     slug: "Bilbao",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/fmzowykcm81i7jtstyigm/Bilbao.pdf?rlkey=1ryjd6amvb62oa6r65fe9nva7&st=i43umkr3&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Bibao.pdf",
     FilmDescription:
       "With its discontinuous lines, the Bilbao self-adhesive film will allow you to tastefully customise windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/bilbao.jpg",
@@ -1304,8 +1274,7 @@ export const manifestData = [
     name: "Riga",
     slug: "Riga",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/5r542rc4hjmy8ssfscrxl/Riga.pdf?rlkey=a06ewwif6joxfop29xgfmzhpk&st=ia4ql5yl&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Riga.pdf",
     FilmDescription:
       "With its discontinuous lines, the Bilbao self-adhesive film will allow you to tastefully customise windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/riga.jpg",
@@ -1344,8 +1313,7 @@ export const manifestData = [
     name: "Liana",
     slug: "Liana",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/0tsfgmyga7a5tez83esy3/Liana.pdf?rlkey=4a76c3g0ngc8vgr4h2kz5jj0e&st=x9499wyc&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Liana.pdf",
     FilmDescription:
       "The self-adhesive Liana film features a vine-like pattern, lending a touch of the wild to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Liana.jpg",
@@ -1385,8 +1353,7 @@ export const manifestData = [
     name: "Basic",
     slug: "Basic",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/udlwn6966dk89c02005ou/Basic.pdf?rlkey=cxkptgnie6w2dox2sof605ljj&st=h8czdz3i&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Basic.pdf",
     FilmDescription:
       "The Basic decorative film allows you to effectively personalise your windows and glass partitions. With its frosted glass effect, this film was initially conceived as a complement to other frosted effect films.",
     image: "/images/manif-graphics-imgs/films-pics/Basic.jpg",
@@ -1426,8 +1393,7 @@ export const manifestData = [
     name: "Classic",
     slug: "Classic",
     category: "Frost Themes",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/k3gk37z2wtunds2kjviz6/Classic.pdf?rlkey=sov1nzub5hkxmmvsz42eqp5qm&st=1hmeh5am&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Themes/Classic.pdf",
     FilmDescription:
       "The Classic decorative film allows you to effectively personalise your windows and glass partitions. It provides privacy thanks to its frosted aspect angel hair effect patterning.",
     image: "/images/manif-graphics-imgs/films-pics/Classic.jpg",
@@ -1467,8 +1433,7 @@ export const manifestData = [
     name: "Block",
     slug: "Block",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/dnwn54vhy1tw1w9uxgaal/Block.pdf?rlkey=x5f6ph65dvqe2a2z0514fh5fh&st=u9mnm5ko&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Block.pdf",
     FilmDescription:
       "The Block decorative film allows you to effectively personalise your windows and glass partitions. Block is a decorative film featuring a pattern of 180 x 180mm frosted squares defined by 10 mm lighter aspect bands around their perimeters.",
     image: "/images/manif-graphics-imgs/films-pics/block.jpg",
@@ -1506,8 +1471,7 @@ export const manifestData = [
     name: "Claustra",
     slug: "Claustra",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/sqgl1ic6mjmiqb9i71kgm/Claustra.pdf?rlkey=54scti5mrok9yo844l7c2rwtp&st=qwelm0wt&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Claustra.pdf",
     FilmDescription:
       "The Claustra decorative film allows you to effectively personalise your windows and glass partitions. Claustra is a decorative film featuring a pattern of 44 x 44mm frosted squares defined by 10 mm lighter aspect bands around their perimeters.",
     image: "/images/manif-graphics-imgs/films-pics/claustra.jpg",
@@ -1547,8 +1511,7 @@ export const manifestData = [
     name: "Figaro",
     slug: "Figaro",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/nyifmdvxywkp7l0k42sg5/Figaro.pdf?rlkey=ejno7xeetq22arjxqoyi6uenr&st=wwppiwzd&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Figaro.pdf",
     FilmDescription:
       "Featuring frosted motifs of architectural forms, the Figaro decorative film allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/figaro.jpg",
@@ -1588,8 +1551,7 @@ export const manifestData = [
     name: "Tecno",
     slug: "Tecno",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/50i6t5uuil06mq5u3gtld/Tecno.pdf?rlkey=q30evma9zxknp8slg2ejtpw15&st=y6akbhzg&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Tecno.pdf",
     FilmDescription:
       "The Tecno decorative film allows you to effectively customize your windows and glass partitions. A frosted film accentuated by small clear 3 x 3 cm squares.",
     image: "/images/manif-graphics-imgs/films-pics/tecno.jpg",
@@ -1629,8 +1591,7 @@ export const manifestData = [
     name: "Floris",
     slug: "Floris",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/sybdvic5o5tfh479kz5yu/Floris.pdf?rlkey=hsctqi4lusxy75a9sl8bztq9d&st=k9aqmprs&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Floris.pdf",
     FilmDescription:
       "The Floris decorative film features a white floral design. Floris window films allow you to tastefully customize windows and partitions.",
     image: "/images/manif-graphics-imgs/films-pics/floris.jpg",
@@ -1670,8 +1631,7 @@ export const manifestData = [
     name: "Floral",
     slug: "Floral",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/nm1oqzezoj1btvw27ye6t/Floral.pdf?rlkey=08wg1r6o12aivowtvtgks8qfx&st=64dlckyb&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Floral.pdf",
     FilmDescription:
       "The Floral decorative film features a pattern evocative of the spring season, affording an arboreous touch to your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/floral.jpg",
@@ -1711,8 +1671,7 @@ export const manifestData = [
     name: "Atoma",
     slug: "Atoma",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/bnwgs5ft2d22lhz8ombb4/Atoma.pdf?rlkey=7wzjt5j09ekq16p2by7lz78xg&st=269zjpku&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Atoma.pdf",
     FilmDescription:
       "Atoma is a decorative film, featuring a frosted scale effect pattern, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/atoma.jpg",
@@ -1752,8 +1711,7 @@ export const manifestData = [
     name: "Luna",
     slug: "Luna",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/oa37grw1eprvjrcujqnmg/Luna.pdf?rlkey=7h21rv30cwv2nuquqqw0t9kcz&st=5r4in3s6&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Luna.pdf",
     FilmDescription:
       "Atoma is a decorative film, featuring a frosted scale effect pattern, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/luna.jpg",
@@ -1791,8 +1749,7 @@ export const manifestData = [
     name: "Terra",
     slug: "Terra",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/nt6z5beufge29jdsgvky1/Terra.pdf?rlkey=xh3qmkcak4alegsr1qr7am3cg&st=ykp49nlk&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Terra.pdf",
     FilmDescription:
       "Terra is a decorative film, featuring a pattern of irregular shaped frosted scales, that allows you to personalise your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/terra.jpg",
@@ -1832,8 +1789,7 @@ export const manifestData = [
     name: "Pixel",
     slug: "Pixel",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/nt6z5beufge29jdsgvky1/Terra.pdf?rlkey=xh3qmkcak4alegsr1qr7am3cg&st=ykp49nlk&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Pixel.pdf",
     FilmDescription:
       "The Pixel decorative film, featuring a graduated pattern of squares, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/pixel.jpg",
@@ -1871,8 +1827,7 @@ export const manifestData = [
     name: "Fontana",
     slug: "Fontana",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ca12br04mbnv40hl8h80l/Fontana.pdf?rlkey=7gujrwv3qv0yx4hiv15ew7g7h&st=i1861e2j&dl=0",
+    PDFDownloadLink: "h/PDF/Manifestations-specs/Frost-Forms/Fontana.pdf",
     FilmDescription:
       "The Fontana decorative film allows you to effectively personalise your windows and glass partitions. The film is decorated with a graduated white mottled effect pattern reminiscent of a fountain, arranged in vertical bands.",
     image: "/images/manif-graphics-imgs/films-pics/fontana.jpg",
@@ -1912,8 +1867,7 @@ export const manifestData = [
     name: "Elektro",
     slug: "Elektro",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/hfxzgykpbao07y941hwe3/Elektro.pdf?rlkey=ogv0ssk7lh7n2ac44ae53n9u1&st=i8kjr1wh&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Elektro.pdf",
     FilmDescription:
       "The Elektro decorative film, featuring a large oscillating wave pattern, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Elektro.jpg",
@@ -1951,8 +1905,7 @@ export const manifestData = [
     name: "Cortina",
     slug: "Cortina",
     category: "Frost Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/pfev84uq84vfmxz9o1jyb/Cortina.pdf?rlkey=1ax2asjemye9c3lnvwx6dcyqs&st=60aiowqv&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Coratina.pdf",
     FilmDescription:
       "The Cortina decorative film, featuring frosted effect waves arranged in columns, allows you to customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/cortina.jpg",
@@ -1990,8 +1943,7 @@ export const manifestData = [
     name: "Alpha",
     slug: "Alpha",
     category: "White Decresing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/cnao29t9s3d7ltyaet170/Alpha.pdf?rlkey=p0d1yftq3o1afj3elgdy5ob6e&st=bs995e66&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Decresing/Alpha.pdf",
     FilmDescription:
       "Alpha is a decorative film that allows you to personalise your windows and glass partitions. The film is adorned with white stripes, separated by intermittent clear strips of gradually increasing thickness from 35 to 5 mm.",
     image: "/images/manif-graphics-imgs/films-pics/alpha.jpg",
@@ -2029,8 +1981,7 @@ export const manifestData = [
     name: "Boreal",
     slug: "Boreal",
     category: "White Decresing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/nv5j3ck1rk2jdq4fokn0r/Boreal.pdf?rlkey=0ut07o14zoxccyk9tgo4as0le&st=l4hstbk9&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Boreal.pdf",
     FilmDescription:
       "The Boreal decorative film allows you to effectively personalise your windows and glass partitions. Decorated with a graduated white mottled effect pattern, arranged in 40 mm linear bands.",
     image: "/images/manif-graphics-imgs/films-pics/Boreal.jpg",
@@ -2068,8 +2019,7 @@ export const manifestData = [
     name: "Vision",
     slug: "Vision",
     category: "White Decresing",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/cjtfcnv3e6g96v1oilm1m/Vision.pdf?rlkey=b9fiwcd1xbp1wjmw3c9zexi9z&st=uomjjze1&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Forms/Vision.pdf",
     FilmDescription:
       "The Boreal decorative film allows you to effectively personalise your windows and glass partitions. Decorated with a graduated white mottled effect pattern, arranged in 40 mm linear bands.",
     image: "/images/manif-graphics-imgs/films-pics/vision.jpg",
@@ -2107,8 +2057,7 @@ export const manifestData = [
     name: "Linea 10",
     slug: "Linea-10",
     category: "White Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/hc8mwm3zc5t3aw5coe7rf/Linea_10.pdf?rlkey=7e8r2o5bptlhcejkxkabkco2r&st=twuojt3l&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Lines/Linea_10.pdf",
     FilmDescription:
       "The Linea 10 decorative film allows you to effectively personalise your windows and glass partitions. It features a pattern composed of white 10 mm bands arranged horizontally and separated by 4 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/Linea10.jpg",
@@ -2146,8 +2095,7 @@ export const manifestData = [
     name: "Linea 18",
     slug: "Linea-18",
     category: "White Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/yj3ze2wl0dbb4ntyg75hh/Linea_18.pdf?rlkey=n8zwacqeia1yndf1y3ajxftl9&st=f419ttx7&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Lines/Linea_18.pdf",
     FilmDescription:
       "The Linea 18 decorative film allows you to effectively personalise your windows and glass partitions. It features a pattern composed of white 18mm bands arranged horizontally and separated by 6mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/Linea18.jpg",
@@ -2185,8 +2133,7 @@ export const manifestData = [
     name: "Vienna",
     slug: "Vienna",
     category: "White Lines",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/e191ktrie0lf5n37abhpq/Vienna.pdf?rlkey=phenxs0si46yvnwvq5isaruim&st=gcowzmf4&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Lines/Vienna.pdf",
     FilmDescription:
       "The self-adhesive Vienna film features a pattern of straight lines and waves, instantly energising your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/vienna.jpg",
@@ -2224,8 +2171,7 @@ export const manifestData = [
     name: "Decorum",
     slug: "Decorum",
     category: "White Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/daevyb9neaa0yvrff0zct/Decorum.pdf?rlkey=47i0auyjmm14a9aa496j36s7j&st=6nh7zkah&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Forms/Decorum.pdf",
     FilmDescription:
       "Featuring white motifs inspired from architectural forms, the Decorum decorative film allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/Decorum.jpg",
@@ -2263,8 +2209,7 @@ export const manifestData = [
     name: "Thema",
     slug: "Thema",
     category: "White Forms",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/xw9j1vrh5r5m4uyd4qp2e/Thema.pdf?rlkey=nda283ug846yjs2zblaoeq06o&st=exa2pzak&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/White-Forms/Thema.pdf",
     FilmDescription:
       "The Thema decorative film, featuring a white alphabet motif, allows you to effectively customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/thema.jpg",
@@ -2302,8 +2247,7 @@ export const manifestData = [
     name: "Hive",
     slug: "Hive",
     category: "Geometric",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/tc2rdosfexazueg9ysrau/Hive.pdf?rlkey=82slfeglbvqust4l0jlrivrmh&st=ln0trjaw&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Geometric/Hive.pdf",
     FilmDescription:
       "Inspired by nature and beehives, Hive window film will give your windows and glass surfaces an atypical and aesthetic touch. The use of geometric shapes on your glazing or glass partitions is an excellent way to brighten up any space.",
     image: "/images/manif-graphics-imgs/films-pics/Hive.jpg",
@@ -2341,8 +2285,7 @@ export const manifestData = [
     name: "Circuit",
     slug: "Circuit",
     category: "Geometric",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ycdtx7sqjajoxcuus0yjp/Circuit.pdf?rlkey=1do51qjnkdu4xhj9p56sd461l&st=4chh3aj9&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Geometric/Circuit.pdf",
     FilmDescription:
       "The Circuit decorative film is composed of a systematic repeating pattern that customises your windows and glass surfaces. The use of geometric shapes on your glazing or glass partitions is an excellent way to brighten up any space",
     image: "/images/manif-graphics-imgs/films-pics/Circuit.jpg",
@@ -2381,7 +2324,7 @@ export const manifestData = [
     slug: "Blue-40-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/qwweg1t6ruqb2lvvd3ec9/Blue_40C.pdf?rlkey=313bvnluxg5gcz3lj8r4rda3o&st=cir8rztm&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Blue_40C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Blue 40 C film bestows a blue hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Bleu40C.jpg",
@@ -2416,53 +2359,54 @@ export const manifestData = [
     StadipExtClearDoublePane: "/images/solar-films-imgs/caution.svg",
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
+  // {
+  //   id: "61",
+  //   name: "Blue Azure C",
+  //   slug: "Blue-Azure-C",
+  //   category: "Colour Transparent",
+  //   PDFDownloadLink:
+  //     "/PDF/Manifestations-specs/Colour-Transparent/Blue_40C.pdf",
+  //   FilmDescription:
+  //     "Applied to clear glass, the transparent Blue Azure C film bestows a blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
+  //   image: "/images/manif-graphics-imgs/films-pics/BleuAzurC.jpg",
+  //   warranty: "5 years",
+  //   fireRating: "M1",
+  //   storage: "3 years",
+  //   widths: "152cm",
+  //   EnergyRejectedValue: "32",
+  //   VisibleLightTransValue: "29",
+  //   UltravioletTransmission: "1%",
+  //   VisibleLightTransmission: "29%",
+  //   ReflectionExternalVisibleLight: "8%",
+  //   ReflectionInternalVisibleLight: "8%",
+  //   TotalSolarEnergyRejected: "32%",
+  //   TotalSolarEnergyRejected2: "29%",
+  //   ReductionInSolarGlare: "60%",
+  //   GValue: "0.69",
+  //   UVale: "5.7",
+  //   ShadingCoefficient: "NC",
+  //   InstallationType: "Interior",
+  //   FilmComposition: "PET",
+  //   Thickness: "40μ",
+  //   RollLenght: "30.5m",
+  //   ColourFromTheOutside: "Blue",
+  //   ClearSinglePane: "/images/solar-films-imgs/dash.svg",
+  //   TintedSinglePane: "/images/solar-films-imgs/dash.svg",
+  //   ReflectiveTintedSinglePane: "/images/solar-films-imgs/dash.svg",
+  //   ClearDoublePane: "/images/solar-films-imgs/dash.svg",
+  //   TintedDoublePane: "/images/solar-films-imgs/dash.svg",
+  //   ReflectiveTintedDoublePane: "/images/solar-films-imgs/dash.svg",
+  //   GasFilledDoublePane: "/images/solar-films-imgs/dash.svg",
+  //   StadipExtClearDoublePane: "/images/solar-films-imgs/dash.svg",
+  //   StadipIntClearDoublePane: "/images/solar-films-imgs/dash.svg",
+  // },
   {
     id: "61",
-    name: "Blue Azure C",
-    slug: "Blue-Azure-C",
-    category: "Colour Transparent",
-    PDFDownloadLink: "",
-    FilmDescription:
-      "Applied to clear glass, the transparent Blue Azure C film bestows a blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/BleuAzurC.jpg",
-    warranty: "5 years",
-    fireRating: "M1",
-    storage: "3 years",
-    widths: "152cm",
-    EnergyRejectedValue: "32",
-    VisibleLightTransValue: "29",
-    UltravioletTransmission: "1%",
-    VisibleLightTransmission: "29%",
-    ReflectionExternalVisibleLight: "8%",
-    ReflectionInternalVisibleLight: "8%",
-    TotalSolarEnergyRejected: "32%",
-    TotalSolarEnergyRejected2: "29%",
-    ReductionInSolarGlare: "60%",
-    GValue: "0.69",
-    UVale: "5.7",
-    ShadingCoefficient: "NC",
-    InstallationType: "Interior",
-    FilmComposition: "PET",
-    Thickness: "40μ",
-    RollLenght: "30.5m",
-    ColourFromTheOutside: "Blue",
-    ClearSinglePane: "/images/solar-films-imgs/dash.svg",
-    TintedSinglePane: "/images/solar-films-imgs/dash.svg",
-    ReflectiveTintedSinglePane: "/images/solar-films-imgs/dash.svg",
-    ClearDoublePane: "/images/solar-films-imgs/dash.svg",
-    TintedDoublePane: "/images/solar-films-imgs/dash.svg",
-    ReflectiveTintedDoublePane: "/images/solar-films-imgs/dash.svg",
-    GasFilledDoublePane: "/images/solar-films-imgs/dash.svg",
-    StadipExtClearDoublePane: "/images/solar-films-imgs/dash.svg",
-    StadipIntClearDoublePane: "/images/solar-films-imgs/dash.svg",
-  },
-  {
-    id: "62",
     name: "Blue Ocean C",
     slug: "Blue-Ocean-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/i5xtjtj46ay1lo7jnckdl/Blue_Ocean_C.pdf?rlkey=c3oflv8i9us96vf05pkwr9eup&st=ciub1dz7&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Blue_Ocean_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Blue Ocean C film bestows a blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/BleuOceanC.jpg",
@@ -2498,12 +2442,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "63",
+    id: "62",
     name: "Yellow C",
     slug: "Yellow-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/303fnqu4hgsztp7agam6n/Yellow_C.pdf?rlkey=fh648jwvg6nff1p3exmh7nueb&st=h4h2fem1&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Yellow_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Yellow C film bestows a yellow hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Yellow-C.jpg",
@@ -2539,12 +2483,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "64",
+    id: "63",
     name: "Red C",
     slug: "Red-C",
     category: "Colour Transparent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/zj2e6z0oj88e9s25c5ai3/Red_C.pdf?rlkey=1xbet6254scbqfjkxx8ivbbv7&st=2s5zljtv&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Red_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Red C film bestows a red hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/RougeC.jpg",
@@ -2580,12 +2523,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "65",
+    id: "64",
     name: "Green 50 C",
     slug: "Green-50-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/xf65dzkss8om1sx35a5k6/Green_50_C.pdf?rlkey=kwdov6tt7ek5npltsl0irnt3w&st=kzxpbf2q&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Green_50_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Green 50 C film bestows a light green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Green50C.jpg",
@@ -2621,12 +2564,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "66",
+    id: "65",
     name: "Mint C",
     slug: "Mint-C",
     category: "Colour Transparent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/yfa5eyfdnw8c1t2ayxk6c/Mint_C.pdf?rlkey=o1uwf9jxi9xssytcrotlhbp7c&st=97wixorr&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Mint_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Mint C film bestows a green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Mint-C.jpg",
@@ -2662,12 +2604,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "67",
+    id: "66",
     name: "Lime C",
     slug: "Lime-C",
     category: "Colour Transparent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/5u9fpc8xn65ra2xp50p6y/Lime_C.pdf?rlkey=er99ef4cdpp09cfzv7re2ffja&st=rjhm9t8c&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Lime_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Lime C film bestows a green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Lime-C.jpg",
@@ -2703,12 +2644,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/caution.svg",
   },
   {
-    id: "68",
+    id: "67",
     name: "Orange C",
     slug: "Orange-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/g1863pdoegnnvbq9x38fq/Orange_C.pdf?rlkey=1bqefgdx5lcjsvmr4g0wsnnk4&st=jueph7w8&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Orange_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Orange C film bestows an orange hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/OrangeC.jpg",
@@ -2744,12 +2685,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "69",
+    id: "68",
     name: "Pink C",
     slug: "Pink-C",
     category: "Colour Transparent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/rbi3qto61d5wv60jw1giq/Pink_C.pdf?rlkey=ya7msx0z0xi5ag2dslzsfl69o&st=oe8p1a0c&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Pink_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Pink C film bestows a pink tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/RoseC.jpg",
@@ -2785,12 +2725,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/caution.svg",
   },
   {
-    id: "70",
+    id: "69",
     name: "Purple C",
     slug: "Purple-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/u1iwbgtws59t0frotwyh0/Purple_C.pdf?rlkey=cfi65a2ckct21r2uqm8x41tsn&st=4pm1yrg2&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Purple_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Purple C film bestows a purple tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/PurpleC.jpg",
@@ -2826,12 +2766,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "71",
+    id: "70",
     name: "Raspberry C",
     slug: "Raspberry-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/7nqmvp8py5gbjzci609f2/Raspberry_C.pdf?rlkey=11ysxk44l3tzy401anqq8srv6&st=yu8m26lc&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Raspberry_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Raspberry C film bestows a red/pink tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Raspberry-C.jpg",
@@ -2867,12 +2807,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "72",
+    id: "71",
     name: "Turquoise C",
     slug: "Turquoise-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/zn5l8sbzumct744kvewlc/Turquoise_C.pdf?rlkey=ykgnycsn7xnic8fgaa52rsnnm&st=zw2d6bx6&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Turquoise_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Turquoise C film bestows a blue/green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/TurquoiseC.jpg",
@@ -2908,12 +2848,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/caution.svg",
   },
   {
-    id: "73",
+    id: "72",
     name: "Aurora Winter",
     slug: "Aurora-Winter",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/tgdzwl3ymarx7y39lnpgo/Aurora_Winter.pdf?rlkey=kivf71n72h8zz16ov2pwylfuc&st=35qh4hry&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Aurora_Winter.pdf",
     FilmDescription:
       "With its dichroic and chameleon-like properties, the self-adhesive Aurora film changes in hue and colour with every variation in angle of observation. The Aurora decorative film uses natural light to maximum effect, bringing your windows and glass partitions to life through its cold tones dichroic tint.",
     image: "/images/manif-graphics-imgs/films-pics/AuroraWinter.jpg",
@@ -2949,12 +2889,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "74",
+    id: "73",
     name: "Plum C",
     slug: "Plum-C",
     category: "Colour Transparent",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/xef6vdouxqseo26z8h5zt/Plum_C.pdf?rlkey=4kfs4ja33i7bhqz35fjs416rl&st=83w86h0p&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Plum_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Plum C film bestows a mauve tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/Plum-C.jpeg",
@@ -2990,12 +2929,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "75",
+    id: "74",
     name: "Chocolate C",
     slug: "Chocolate-C",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/6oo8tdlbuc0024j67rc02/Chocolate_C.pdf?rlkey=eecs0nnt4csgcd3l0qql9u4xo&st=kv3ajfjh&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Chocolate_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Chocolate C film bestows a brown hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
     image: "/images/manif-graphics-imgs/films-pics/ChocolatC.jpg",
@@ -3031,12 +2970,12 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "76",
+    id: "75",
     name: "Aurora Summer",
     slug: "Aurora-summer",
     category: "Colour Transparent",
     PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/34bnqnvn4pvx2bqs4ey3f/Aurora_Summer.pdf?rlkey=0rskwmvnv4w0c94k5dexzpzdp&st=8qmw21pt&dl=0",
+      "/PDF/Manifestations-specs/Colour-Transparent/Aurora_Summer.pdf",
     FilmDescription:
       "With its dichroic and chameleon-like properties, the self-adhesive Aurora film changes in hue and colour with every variation in angle of observation. The Aurora decorative film uses natural light to maximum effect, bringing your windows and glass partitions to life through its warm tones dichroic tint.",
     image: "/images/manif-graphics-imgs/films-pics/AuroraSummer.jpg",
@@ -3072,12 +3011,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "77",
+    id: "76",
     name: "White Opaque",
     slug: "White-Opaque",
     category: "Blackout",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/yadrybaf7o305phmfxh82/White_Opaque.pdf?rlkey=7e1u6o5qhopzfah8acatlv983&st=bzmndegd&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Blackout/White_Opaque.pdf",
     FilmDescription:
       "The White Opaque black out film provides comprehensive two-way privacy. Blocking almost all light penetration, this film provides an immediate and effective privacy solution, ideally suited for concealing stock, a storage area, etc.",
     image: "/images/manif-graphics-imgs/films-pics/White-Opaque.jpg",
@@ -3113,12 +3051,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "78",
+    id: "77",
     name: "Black Opaque",
     slug: "Black-Opaque",
     category: "Blackout",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ujsgbwf3en52p9bz2n069/Black_Opaque.pdf?rlkey=7azrt35tco0qhzc1bz60minty&st=ja01dipi&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Blackout/Black_Opaque.pdf",
     FilmDescription:
       "The Black Opaque blackout film provides comprehensive two-way privacy. Blocking almost all light penetration, this film provides an immediate and effective privacy solution, ideally suited for concealing stock, a storage area, etc",
     image: "/images/manif-graphics-imgs/films-pics/Black-Opaque.jpg",
@@ -3154,12 +3091,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/notrecommended.svg",
   },
   {
-    id: "79",
+    id: "78",
     name: "Aquatica",
     slug: "Aquatica",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/excbrh9ycjxlfxmugj8g9/Aquatica.pdf?rlkey=6mjbxui3uecuk829ntanc5bwx&st=d832igke&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Aquatica.pdf",
     FilmDescription:
       "Inspired by underwater flora, the Aquatica decorative film will add character to a sophisticated and professional environment. The use of original shapes on your glazing or glass partitions is an excellent way to brighten up any space.",
     image: "/images/manif-graphics-imgs/films-pics/Aquatica.jpg",
@@ -3195,12 +3131,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "80",
+    id: "79",
     name: "Ascent",
     slug: "Ascent",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/6uuw3y08l57i1hlgxqigs/Ascent.pdf?rlkey=3b93ynuuqttkpxmltxc73j4d9&st=fa00a4mb&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Ascent.pdf",
     FilmDescription:
       "Decorated with natural patterns, Ascent decorative film will add character to a sophisticated and professional environment. The use of original shapes on your glazing or glass partitions is an excellent way to brighten up any space.",
     image: "/images/manif-graphics-imgs/films-pics/ascent.jpeg",
@@ -3236,12 +3171,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "81",
+    id: "80",
     name: "Brain",
     slug: "Brain",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/k4tff9oktovkqvhpybtu0/Brain.pdf?rlkey=o7qw8e5icdwfw7l9s6vmnntmi&st=vfs63j7y&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Brain.pdf",
     FilmDescription:
       "Composed of interlaced lines, the Brain film decorates your windows and glass partitions in an original way. The use of a discretion film is ideal to embellish your space while preserving your privacy.",
     image: "/images/manif-graphics-imgs/films-pics/Brain.jpg",
@@ -3277,12 +3211,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "82",
+    id: "81",
     name: "Jungle",
     slug: "Jungle",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/e4hb4qaii6tvcvvxd9d0j/Jungle.pdf?rlkey=e7lg5nmwld07oa530390hqw0b&st=ksdyhgxg&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Jungle.pdf",
     FilmDescription:
       "With the Jungle decorative film, you can change your surroundings without moving from your sofa! This film decorates your windows and glass partitions to transform your interior into a tropical jungle. The use of a discretion film is ideal to embellish your space while preserving your privacy.",
     image: "/images/manif-graphics-imgs/films-pics/Jungle.jpg",
@@ -3318,12 +3251,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "83",
+    id: "82",
     name: "Kaleidoscope",
     slug: "Kaleidoscope",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ah0a8k66smlm6v63ywamk/Kaleidoscope.pdf?rlkey=unt6l7uytqszbalwg3n8yf6nc&st=gtbd0gv4&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Kaleidoscope.pdf",
     FilmDescription:
       "Give your windows and partitions a graphic and dynamic dimension with the Kaleidoscope decorative film. The use of geometric shapes in your interior is an excellent way to brighten up any space and make it trendy and cosy.",
     image: "/images/manif-graphics-imgs/films-pics/kaleidoscope.jpeg",
@@ -3359,12 +3291,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "84",
+    id: "83",
     name: "Ripple",
     slug: "Ripple",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/ugltvm4xtsec0qzoyevc5/Ripple.pdf?rlkey=2t6ub3ph962i3kqwu3n1ggkvw&st=ih5vhos1&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Ripple.pdf",
     FilmDescription:
       "Ripple decorative film personalises your windows and partitions. It is decorated with an organic pattern to give a fresh feeling and bring life to any setting. The use of a discretion film is ideal for embellishing your space while preserving your privacy.",
     image: "/images/manif-graphics-imgs/films-pics/Ripple.jpg",
@@ -3400,12 +3331,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "85",
+    id: "84",
     name: "Spring Wood",
     slug: "Spring-Wood",
     category: "Abstract",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/246uh0t3jfrk448kge10t/Spring_Wood.pdf?rlkey=qu7dfh8gnt9hk4bze5o8wkkdh&st=ps6gfeg3&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Abstract/Spring_Wood.pdf",
     FilmDescription:
       "Inspired by nature, the Spring Wood window film is decorated with tree trunk motifs. It will give your windows and glass surfaces an atypical and aesthetic touch. The use of a discretion film is ideal for embellishing your space while preserving your privacy.",
     image: "/images/manif-graphics-imgs/films-pics/SpringWood.jpg",
@@ -3441,12 +3371,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "86",
+    id: "85",
     name: "Scale",
     slug: "Scale",
     category: "Gradation",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/wqxtbxe686k5us17cusnw/Scale.pdf?rlkey=hno8lohi5ldixu8gqmlya0oul&st=gt05z139&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Gradation/Scale.pdf",
     FilmDescription:
       "Go on an adventure with the Scale decorative film! This film decorates your windows and glass partitions to create an absolutely authentic and wild atmosphere. The use of a discretion film is ideal to embellish your space while preserving your privacy.",
     image: "/images/manif-graphics-imgs/films-pics/Scale.jpg",
@@ -3482,12 +3411,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "87",
+    id: "86",
     name: "Castel",
     slug: "Castel",
     category: "Black",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/n0iwwr1tqae273e06e0a7/Celest.pdf?rlkey=dur5myyo4nrb9l3mokp8kh7mg&st=6q7bwjxk&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Black/Castel.pdf",
     FilmDescription:
       "Presented in a black tinted floral motif, the Castel decorative film allows you to tastefully customize windows and partitions.",
     image: "/images/manif-graphics-imgs/films-pics/celest.jpg",
@@ -3523,12 +3451,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/caution.svg",
   },
   {
-    id: "88",
+    id: "87",
     name: "Matrix",
     slug: "Matrix",
     category: "Black",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/7h4icbbwmmsygb7jzo0at/Matrix.pdf?rlkey=5ci5e6nlbmdawdf48ylsmccl9&st=6u9tzhy1&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Black/Matrix.pdf",
     FilmDescription:
       "The Matrix decorative film, featuring a multitude of small black dots, allows you to customize your windows and glass partitions.",
     image: "/images/manif-graphics-imgs/films-pics/matrix.jpg",
@@ -3564,12 +3491,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/caution.svg",
   },
   {
-    id: "89",
+    id: "88",
     name: "Atlas",
     slug: "Atlas",
     category: "Grey",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/zh7btxrkenkmfuwa3bjbt/Atlas.pdf?rlkey=tpbsvdjftct9gatozeehvuvjv&st=3n7atmgx&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Grey/Atlas.pdf",
     FilmDescription: "Grey squares 44 x 44 mm / 10 mm light.",
     image: "/images/manif-graphics-imgs/films-pics/matrix.jpg",
     warranty: "5 years",
@@ -3602,12 +3528,11 @@ export const manifestData = [
     StadipIntClearDoublePane: "/images/solar-films-imgs/tickmark.svg",
   },
   {
-    id: "90",
+    id: "89",
     name: "Iridium",
     slug: "Iridium",
     category: "Grey",
-    PDFDownloadLink:
-      "https://www.dropbox.com/scl/fi/avwkjcedhi88krqpp6gse/Iridium.pdf?rlkey=fnlnmhr5dbzo54wexoqdtw7z0&st=h3345cif&dl=0",
+    PDFDownloadLink: "/PDF/Manifestations-specs/Grey/Iridium.pdf",
     FilmDescription:
       "The Iridium decorative film allows you to effectively personalise your windows and glass partitions. It features a pattern composed of 10 mm bands arranged horizontally and separated intermittently by 4 mm clear aspect bands.",
     image: "/images/manif-graphics-imgs/films-pics/iridium.jpg",

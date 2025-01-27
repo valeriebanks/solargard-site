@@ -3,7 +3,6 @@ import { useEffect } from "react";
 
 import HomeHero from "./components/heros/home-hero";
 import HomeIntroText from "./components/Intro-texts/home-intro";
-import OurServices from "./components/our-services-cards/card-services-animation";
 
 import CompanyProfile from "./components/homepage/company-profile";
 import GeneralFaqs from "./components/FAQs/general-faq";

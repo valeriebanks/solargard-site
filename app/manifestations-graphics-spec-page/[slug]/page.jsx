@@ -31,8 +31,12 @@ export default function ManifestationGraphicSpecPage({ params }) {
   }
 
   const handleDownload = () => {
-    // Open the Dropbox link in a new window
-    window.open(product.PDFDownloadLink, "_blank");
+    const link = document.createElement("a");
+    link.href = product.PDFDownloadLink; // Use the PDFDownloadLink directly
+    link.download = product.name + ".pdf"; // Set a meaningful name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
