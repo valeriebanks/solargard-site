@@ -30,9 +30,6 @@ export default function Home() {
       <div>
         <ServiceCardGrid />
       </div>
-      {/* <div>
-        <OurServices />
-      </div> */}
       <div>
         <CompanyProfile />
       </div>

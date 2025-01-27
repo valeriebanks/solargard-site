@@ -69,6 +69,14 @@ const CardData = [
     imageUrl: "/images/card-service-imgs/cloaking-card-img.jpg",
     pageUrl: "",
   },
+  {
+    id: "09",
+    title: "Switchable Glass",
+    alt: "",
+    tags: "Data privacy film, Obscure digital screens",
+    imageUrl: "/images/card-service-imgs/cloaking-card-img.jpg",
+    pageUrl: "",
+  },
 ];
 
 function ArrowIcon() {
