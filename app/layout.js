@@ -3,7 +3,7 @@ import { Inter, Poppins } from "@next/font/google";
 import "./globals.css";
 import NavDesktop from "./components/shared-compontents/nav-desktop";
 import MobileNav from "./components/shared-compontents/mobile-nav";
-
+import NavigationMenuDemo from "./components/shared-compontents/NavigationMenu";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -46,6 +46,9 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="favicon.ico?v=2"></link>
       <body className={inter.className}>
         <div>{children}</div>
+        {/* <div>
+          <NavigationMenuDemo />
+        </div> */}
         <div>
           <NavDesktop />
         </div>

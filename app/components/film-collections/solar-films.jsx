@@ -122,9 +122,9 @@ const SolarFilmsData = () => {
                 }}
                 className={`px-2 py-1 text-sm font-medium text-secondary rounded-md ${
                   filterCategory === category
-                    ? "bg-primary text-white"
-                    : "bg-transparent text-gray-700"
-                } hover:bg-primary hover:text-white cursor-pointer`}
+                    ? "bg-primary border-2 border-primary text-white"
+                    : "bg-transparent border-2 border-gray-300 text-gray-700"
+                } hover:bg-primary border-2  hover:text-white cursor-pointer`}
               >
                 {category}
               </button>

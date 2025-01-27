@@ -36,12 +36,6 @@ const windowFilms = [
     href: "/Safety-Films",
     icon: FingerPrintIcon,
   },
-  {
-    name: "Casper",
-    description: "Cloaking Film, Obscures Content on Digital Screens",
-    href: "/Casper",
-    icon: FingerPrintIcon,
-  },
 ];
 
 const callsToAction = [
@@ -70,7 +64,7 @@ export default function DesktopFlyoutMenu() {
     <Popover className="relative antialiased z-10">
       {({ open }) => (
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-          <Popover.Button className="inline-flex items-center gap-x-1 text-base font-semibold text-secondary">
+          <Popover.Button className="flex items-center gap-x-1 lg:text-sm xl:text-base xxl:text-base nav:text-sm font-semibold text-secondary">
             <span className="hover:text-HoverColor">Window Films</span>
             <ChevronDownIcon aria-hidden="true" className="size-5" />
           </Popover.Button>
@@ -78,14 +72,14 @@ export default function DesktopFlyoutMenu() {
           {isOpen && (
             <Popover.Panel
               static
-              className="absolute left-1/2 z-20 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="absolute left-1/2 z-20 mt-7 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
-              <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-base shadow-lg ring-1 ring-gray-900/5">
+              <div className="w-[350px] max-w-md flex-auto overflow-hidden rounded-2xl bg-white text-base shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {windowFilms.map((item) => (
                     <div
                       key={item.name}
-                      className="group text-xl relative flex gap-x-4 rounded-lg p-4 hover:bg-gray-50"
+                      className="group text-lg relative flex gap-x-4 rounded-lg p-4 hover:bg-gray-50 antialiased"
                     >
                       <div>
                         <Link

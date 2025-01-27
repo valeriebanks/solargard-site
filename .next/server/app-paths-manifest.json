@@ -1,4 +1,4 @@
 {
-  "/Solar-Films/page": "app/Solar-Films/page.js",
-  "/Solar-spec-page/[slug]/page": "app/Solar-spec-page/[slug]/page.js"
+  "/Casper/page": "app/Casper/page.js",
+  "/page": "app/page.js"
 }

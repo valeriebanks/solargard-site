@@ -1,14 +1,16 @@
 import Link from "next/link";
 
 import DesktopFlyoutMenu from "./desktop-flyout-menu";
+import GlassTechonlogyMenu from "./glass-technology";
+import VehicleFlyoutMenu from "./vehicle-flyout-menu";
 
 export default function NavDesktop() {
   return (
     <div>
-      <div className="bg-white text-white absolute z-20 xxl:w-9/12 xl:w-10/12 lg:w-11/12 xs:w-10/12 mx-auto h-14 left-1/2 top-8 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-2xl flex items-center xl:flex lg:flex md:hidden sm:hidden xs:hidden">
+      <div className="bg-white text-white absolute z-20 xxl:w-9/12  xl:w-10/12 lg:w-11/12 xs:w-10/12 mx-auto h-14 left-1/2 top-8 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-2xl flex items-center xl:flex lg:flex md:hidden sm:hidden xs:hidden">
         <div className="flex w-full px-6 mx-auto items-center justify-between antialiased">
           <div className="flex items-center">
-            <div>
+            <div className="hidden lg:block">
               <Link href="/">
                 <LogoLatest />
               </Link>
@@ -18,40 +20,36 @@ export default function NavDesktop() {
                 <li>
                   <DesktopFlyoutMenu />
                 </li>
+                <li className="pl-4">
+                  <GlassTechonlogyMenu />
+                </li>
+                <li className="pl-4">
+                  <VehicleFlyoutMenu />
+                </li>
                 <Link href="/Manifestations-Graphics">
-                  <li className="pl-4 font-semibold hover:text-HoverColor">
+                  <li className="pl-4 font-semibold lg:text-sm xl:text-base xxl:text-base nav:text-sm hover:text-HoverColor">
                     Manifestations & Graphics
                   </li>
                 </Link>
                 <Link href="/CoverStyl">
-                  <li className="pl-4 font-semibold  hover:text-HoverColor">
-                    CoverStyl&apos;
-                  </li>
-                </Link>
-                <Link href="/Vehicle-tinting">
-                  <li className="pl-4 font-semibold  hover:text-HoverColor">
-                    Vehicle Tinting
-                  </li>
-                </Link>
-                <Link href="/Vehicle-Wrapping">
-                  <li className="pl-4 font-semibold  hover:text-HoverColor">
-                    Vehicle Wraps
+                  <li className="pl-4 font-semibold lg:text-sm xl:text-base xxl:text-base nav:text-sm  hover:text-HoverColor">
+                    Kitchen Wraps
                   </li>
                 </Link>
                 <Link href="/Contact-Us">
-                  <li className="pl-4 font-semibold  hover:text-HoverColor">
+                  <li className="pl-4 font-semibold lg:text-sm xl:text-base xxl:text-base nav:text-sm  hover:text-HoverColor">
                     Contact Us
                   </li>
                 </Link>
               </ul>
             </div>
           </div>
-          <div className="text-white flex items-center font-bold bg-slate-800 px-4 py-1 rounded-full">
+          {/* <div className="text-white flex items-center font-bold bg-slate-800 px-4 py-1 rounded-full">
             <span className="inline-flex pr-1">
               <PhoneIconNav />
             </span>
             021 454 5606
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -90,11 +88,12 @@ function Logo() {
 function LogoLatest() {
   return (
     <svg
-      width="180"
+      width="140"
       height="56"
       viewBox="0 0 211 56"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="lg:block xxl:block xl:block md:block"
     >
       <g clipPath="url(#clip0_1028_34932)">
         <path
@@ -180,7 +179,36 @@ function LogoLatest() {
     </svg>
   );
 }
-
+function LogoIcon() {
+  return (
+    <svg
+      width="29"
+      height="26"
+      viewBox="0 0 29 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="lg:hidden"
+    >
+      <path
+        d="M5.65901 19.3537C4.05717 17.7519 2.4559 16.1494 0.853486 14.5482C0.0166779 13.7114 0.171821 12.3261 1.21785 11.7702C1.68047 11.5247 2.21433 11.4939 2.74405 11.78C3.29407 12.0761 3.67338 12.5487 4.09933 12.9713C5.00139 13.8654 5.88126 14.7817 6.77592 15.6832C8.37617 17.2959 9.98154 18.9036 11.5812 20.5169C12.0785 21.0187 12.6475 21.4125 13.3063 21.6466C13.9917 21.8902 14.7002 21.9566 15.4223 21.8624C16.2963 21.747 17.0626 21.4079 17.6979 20.8181C18.1019 20.4433 18.4511 20.0241 18.6919 19.502C18.9904 18.8533 19.1262 18.1807 19.1186 17.4787C19.1145 17.1035 19.013 16.7241 18.9312 16.3508C18.7033 15.3101 17.9866 14.5877 17.2597 13.8721C16.3915 13.0176 15.5262 12.1615 14.6621 11.303C14.2699 10.9132 13.843 10.5488 13.5068 10.1147C13.009 9.4723 12.9969 8.54716 13.5458 7.91196C13.9719 7.41815 14.5057 7.19597 15.1478 7.2996C15.6161 7.37514 15.9947 7.64667 16.3333 7.99665C17.1588 8.84831 18.007 9.67719 18.8461 10.5163C19.4682 11.1384 20.0886 11.7622 20.7129 12.3819C21.3121 12.9766 21.9148 13.5679 22.5175 14.1592C23.0758 14.7073 24.0651 14.64 24.5831 14.0275C25.0159 13.5165 25.0385 12.6431 24.4826 12.1042C23.6128 11.2618 22.7596 10.4029 21.9007 9.54969C20.7944 8.4502 19.6949 7.34388 18.58 6.25292C18.1967 5.8776 17.7997 5.50672 17.3665 5.19417C17.078 4.98543 16.7209 4.86286 16.3822 4.73821C15.8623 4.54734 15.3153 4.49561 14.7722 4.52057C14.4179 4.53635 14.0615 4.60685 13.7203 4.7006C13.3912 4.79046 13.0613 4.90797 12.7671 5.07491C12.4467 5.25651 12.1499 5.49027 11.8734 5.73523C11.3598 6.19049 10.9585 6.73647 10.7287 7.3935C10.535 7.94782 10.4245 8.517 10.4227 9.11634C10.421 9.67823 10.5245 10.2201 10.7102 10.7405C10.9323 11.3611 11.3049 11.8999 11.7839 12.3686C12.414 12.985 13.0224 13.6231 13.6456 14.2451C14.368 14.9676 15.099 15.6815 15.8237 16.4016C16.402 16.9765 16.6491 17.663 16.3721 18.4244C16.1832 18.9447 15.7943 19.3266 15.2133 19.4595C14.4875 19.6251 13.9127 19.3771 13.3944 18.8497C12 17.4313 10.5936 16.0262 9.18159 14.6255C8.64887 14.0973 8.2338 13.483 7.8955 12.8316C7.30273 11.6901 6.95567 10.4721 6.97316 9.18711C6.98188 8.54232 7.01413 7.88918 7.12908 7.25954C7.22349 6.7403 7.42007 6.23328 7.63422 5.74953C7.86293 5.23137 8.10531 4.69956 8.45083 4.25951C8.92454 3.65391 9.46678 3.09066 10.0449 2.58261C10.4314 2.24276 10.9231 2.01603 11.3821 1.76468C11.6941 1.59393 12.0213 1.44065 12.3594 1.329C12.7393 1.20347 13.1334 1.10462 13.5304 1.0473C14.0079 0.978298 14.4943 0.933036 14.9773 0.937872C15.4672 0.942794 15.9629 0.989857 16.4463 1.07711C16.9229 1.16313 17.3977 1.29638 17.855 1.46111C18.2342 1.59779 18.5906 1.80622 18.9542 1.98996C20.0724 2.55363 20.8787 3.48861 21.7486 4.34485C22.8828 5.46082 24.0056 6.58818 25.1318 7.71327C25.8291 8.41061 26.5305 9.10397 27.2141 9.81382C27.6333 10.2489 27.8763 10.7879 28.097 11.3457C28.3921 12.0916 28.4627 12.8544 28.3979 13.6299C28.3393 14.3386 28.1018 14.9846 27.7858 15.6226C27.2972 16.6084 26.4424 17.245 25.6995 17.9879C24.2388 19.4486 22.7553 20.8877 21.2736 22.3274C20.5145 23.0655 19.7625 23.8129 18.9584 24.5002C18.5672 24.8354 18.0833 25.079 17.6082 25.2949C17.187 25.4862 16.7288 25.6258 16.2711 25.7089C15.7777 25.7984 15.2653 25.8393 14.762 25.8221C14.2442 25.8042 13.7155 25.7389 13.213 25.6053C12.7134 25.4723 12.2334 25.245 11.7565 25.0322C10.6473 24.5367 9.90254 23.5949 9.06701 22.7685C7.924 21.638 6.7918 20.4967 5.65505 19.36C5.65676 19.3583 5.65847 19.3566 5.6596 19.3554L5.65901 19.3537Z"
+        fill="url(#paint0_linear_1019_34934)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_1019_34934"
+          x1="1.5186"
+          y1="10.3689"
+          x2="29.994"
+          y2="16.0474"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#00DBDE" />
+          <stop offset="0.96" stop-color="#FC00FF" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
 function PhoneIconNav() {
   return (
     <svg

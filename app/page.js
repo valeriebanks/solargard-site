@@ -10,6 +10,8 @@ import GeneralFaqs from "./components/FAQs/general-faq";
 import Testimonials from "./components/shared-compontents/testimonials";
 import ContactUs from "./components/shared-compontents/Contact-Us";
 import Footer from "./components/shared-compontents/Footer";
+import ServiceCardGrid from "./components/homepage/service-cards";
+
 export default function Home() {
   useEffect(() => {
     (async () => {
@@ -25,12 +27,12 @@ export default function Home() {
       <div>
         <HomeIntroText />
       </div>
-      {/* <div>
-        <GridServicesNav />
-      </div> */}
       <div>
-        <OurServices />
+        <ServiceCardGrid />
       </div>
+      {/* <div>
+        <OurServices />
+      </div> */}
       <div>
         <CompanyProfile />
       </div>

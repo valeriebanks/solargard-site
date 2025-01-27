@@ -57,13 +57,13 @@ const CardData = [
     id: "07",
     title: "Coverstyl'",
     alt: "",
-    tags: "Transform Surfaces, Decorative Vinyl Wraps",
+    tags: "Kitchen Wraps, Decorative Vinyl Wraps",
     imageUrl: "/images/card-service-imgs/coverstyl-card-grid-img.jpg",
     pageUrl: "",
   },
   {
     id: "08",
-    title: "Casper Cloaking",
+    title: "Cloaking",
     alt: "",
     tags: "Data privacy film, Obscure digital screens",
     imageUrl: "/images/card-service-imgs/cloaking-card-img.jpg",
@@ -158,7 +158,7 @@ export default function ServiceCardGrid() {
 
   return (
     <div className="w-full bg-grey">
-      <div>
+      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-9/12 sm:w-11/12 mx-auto">
         <div>
           <h2 className="mb-4 text-4xl font-bold text-secondary">
             Our Services
@@ -171,7 +171,7 @@ export default function ServiceCardGrid() {
               className="relative bg-cover bg-center flex flex-col overflow-hidden"
               ref={(el) => (containerRefs.current[index] = el)}
             >
-              <div className="relative rounded-lg lg:h-400 md:h-400 sm:h-44 overflow-hidden">
+              <div className="relative rounded-lg xl:h-80 lg:h-48 md:h-400 sm:h-44 overflow-hidden">
                 <Image
                   className="rounded-lg"
                   src={data.imageUrl}
