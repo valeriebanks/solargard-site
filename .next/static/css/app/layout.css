@@ -1532,9 +1532,6 @@ video {
 .w-screen {
   width: 100vw;
 }
-.w-\[80\%\] {
-  width: 80%;
-}
 .min-w-10 {
   min-width: 2.5rem;
 }
@@ -1725,14 +1722,14 @@ video {
 .appearance-none {
   appearance: none;
 }
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-row {
   flex-direction: row;
@@ -1832,9 +1829,6 @@ video {
 }
 .gap-y-8 {
   row-gap: 2rem;
-}
-.gap-y-24 {
-  row-gap: 6rem;
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;

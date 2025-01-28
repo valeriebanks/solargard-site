@@ -5,6 +5,8 @@ export const solarFilmsData = [
     id: 1,
     name: "Alu 50 XC",
     slug: "alu-50-xc",
+    label: "Alu 50 XC",
+    key: "alu 50 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Alu_50_XC.pdf",
     image:
@@ -44,6 +46,8 @@ export const solarFilmsData = [
     id: 2,
     name: "Alu 70 XC",
     slug: "alu-70-xc",
+    label: "Alu 70 XC",
+    key: "alu 70 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Alu_70_XC.pdf",
     image:
@@ -83,6 +87,8 @@ export const solarFilmsData = [
     id: 3,
     name: "Alu 80 XC",
     slug: "alu-80-xc",
+    label: "Alu 80 XC",
+    key: "alu 80 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Alu_80_XC.pdf",
     image:

@@ -7,6 +7,7 @@ export default function OurCompanyProfile() {
     <div className="bg-grey">
       <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 lg:py-24 mx-auto">
         <Image
+          alt="Solar Gard Ireland"
           src={CompanyProfileImg}
           sizes="100vw"
           style={{
@@ -60,7 +61,7 @@ export default function OurCompanyProfile() {
             </p>
           </div>
         </div>
-        <div className="mt-8 font-medium text-textLightGray text-2xl">
+        <div className="mt-8 font-medium text-textLightGray text-xl">
           Ready to transform your space? Contact Solar Gard Ireland today to
           discover how we can help bring your vision to life. Whether you’re
           looking to reduce energy costs, enhance privacy, or create a stunning
