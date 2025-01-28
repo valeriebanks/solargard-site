@@ -22,6 +22,27 @@ a {
     #d6dae3
   );
 }
+
+input::placeholder {
+  color: #5c5c5c;
+  opacity: 0.9;
+}
+
+/* input[type="text"],
+textarea {
+  background-color: #d1d1d1;
+  height: 40px;
+  width: 100%;
+} */
+
+/* input,
+textarea {
+  background-color: #f328af !important;
+  color: black !important;
+}
+.main-wrapper {
+  background-color: aquamarine !important;
+} */
 b {
   color: #3872e5;
   font-weight: 600;

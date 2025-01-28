@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         primary: "#3872e5",
         HoverColor: "#3872e5",
+        BgInput: "#f328af",
         secondary: "#212332",
         grey: "#F7F7F7",
         textGray: "#5C5C5C",

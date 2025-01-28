@@ -23,6 +23,7 @@ const categories = [
 ];
 
 const SolarFilmsData = () => {
+  const variants = ["flat", "bordered", "underlined", "faded"];
   const [currentPage, setCurrentPage] = useState(1);
   const [filterCategory, setFilterCategory] = useState("All");
   const [productsPerPage, setProductsPerPage] = useState(4);
@@ -96,40 +97,56 @@ const SolarFilmsData = () => {
   return (
     <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto antialiased">
       <div className="lg:px-4 lg:py-16 md:px-4 md:py-12 sm:py-2">
-        <div className="lg:w-7/12 lg:mb-14 md:mb-8 sm:mb-6">
-          <h2 className="lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
-            Discover Our Range of High-Performance Solar Films
-          </h2>
-          <p className="font-medium text-textGray lg:text-xl sm:mt-2">
-            Tailored Solutions to Enhance Comfort, Efficiency, and Protection
-            for Every Space
-          </p>
+        <div className="flex flex-row">
+          <div className="basis-3/4">
+            <h2 className="lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
+              Discover Our Range of High-Performance Solar Films
+            </h2>
+            <p className="font-medium text-textGray lg:text-xl sm:mt-2">
+              Tailored Solutions to Enhance Comfort, Efficiency, and Protection
+              for Every Space
+            </p>
+          </div>
+          <div className="basis-1/4">
+            {/* Autocomplete Component */}
+            <div className="mt-32">
+              <Autocomplete
+                variant="bordered"
+                onSelect={handleAutocompleteSelect}
+                onInputChange={handleAutocompleteInputChange}
+                placeholder={`Search for a Solar Film`}
+                classNames={{
+                  listbox: "text-secondary",
+                  trigger: "text-secondary",
+                  value: "text-secondary",
+                }}
+              >
+                {solarFilmsData.map((film) => (
+                  <AutocompleteItem key={film.id} value={film.name}>
+                    {film.name}
+                  </AutocompleteItem>
+                ))}
+              </Autocomplete>
+            </div>
+          </div>
         </div>
-
-        {/* Autocomplete Component */}
-        <div className="mb-4">
-          <Autocomplete
-            onSelect={handleAutocompleteSelect}
-            onInputChange={handleAutocompleteInputChange}
-            placeholder="Search for a solar film..."
-          >
-            {solarFilmsData.map((film) => (
-              <AutocompleteItem key={film.id} value={film.name}>
-                {film.name}
-              </AutocompleteItem>
-            ))}
-          </Autocomplete>
-        </div>
-
         {/* Filter Buttons and Listbox for Mobile */}
-        <div className="flex items-center flex-wrap gap-2 mb-8">
+        <div className="flex items-center flex-wrap gap-2 mt-6 mb-8">
           {/* Desktop Filter Buttons */}
           <div className="hidden lg:flex gap-2">
+            <div className="flex items-center">
+              <span>
+                <FilterIcon />
+              </span>
+              <h6 className="text-sm font-medium text-secondary pl-1 items-center">
+                Filter by:
+              </h6>
+            </div>
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => handleCategoryChange(category)}
-                className={`px-2 py-1 text-sm font-medium text-secondary rounded-md ${
+                className={`px-2 py-1 text-xs font-medium text-secondary rounded-md ${
                   filterCategory === category
                     ? "bg-primary border-2 border-primary text-white"
                     : "bg-transparent border-2 border-gray-300 text-gray-700"
