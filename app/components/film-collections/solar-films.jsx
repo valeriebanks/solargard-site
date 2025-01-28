@@ -7,7 +7,7 @@ import { Progress } from "@nextui-org/progress";
 import Image from "next/image";
 import { Select, SelectItem } from "@nextui-org/select";
 import { Pagination } from "@nextui-org/pagination";
-import { Autocomplete, AutocompleteItem } from "@nextui-org/autocomplete"; // Import Autocomplete components
+import { Autocomplete, AutocompleteItem } from "@nextui-org/autocomplete";
 
 const categories = [
   "All",
@@ -26,49 +26,44 @@ const SolarFilmsData = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [filterCategory, setFilterCategory] = useState("All");
   const [productsPerPage, setProductsPerPage] = useState(4);
-  const [searchTerm, setSearchTerm] = useState(""); // Ensure this is initialized as a string
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedFilm, setSelectedFilm] = useState(null); // Track selected film
 
   // Function to determine products per page based on screen width
-  function getProductsPerPage(width) {
-    if (width >= 1536) {
-      return 4; // 1 row of 4
-    } else if (width >= 1024) {
-      return 3; // 1 row of 3
-    } else if (width >= 768) {
-      return 2; // 1 row of 2
-    } else {
-      return 4; // sm and mobile: 1 row of 2
-    }
-  }
+  const getProductsPerPage = (width) => {
+    if (width >= 1536) return 4;
+    else if (width >= 1024) return 3;
+    else if (width >= 768) return 2;
+    return 4;
+  };
 
-  // Initialize and handle resize in useEffect
+  // Handle screen resizing
   useEffect(() => {
     setProductsPerPage(getProductsPerPage(window.innerWidth));
 
-    function handleResize() {
+    const handleResize = () => {
       const newProductsPerPage = getProductsPerPage(window.innerWidth);
       if (newProductsPerPage !== productsPerPage) {
         setProductsPerPage(newProductsPerPage);
         setCurrentPage(1);
       }
-    }
+    };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [productsPerPage]);
 
-  // Filter products based on category and search term
+  // Unified filtering logic
   const filteredProducts = solarFilmsData.filter((product) => {
     const matchesCategory =
       filterCategory === "All" || product.category === filterCategory;
-    const matchesSearchTerm = product.name
-      .toLowerCase()
-      .includes((searchTerm || "").toLowerCase()); // Ensure searchTerm is a string
+    const matchesSearchTerm =
+      !searchTerm ||
+      product.name.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearchTerm;
   });
 
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
-
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = filteredProducts.slice(
@@ -76,74 +71,69 @@ const SolarFilmsData = () => {
     indexOfLastProduct
   );
 
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
-  };
-
-  // Handle category selection
+  // Handlers for filtering
   const handleCategoryChange = (category) => {
     setFilterCategory(category);
-    setSearchTerm(""); // Clear the search term when a category is selected
-    setCurrentPage(1); // Reset to the first page when filter changes
+    setSearchTerm("");
+    setSelectedFilm(null); // Clear selected film
+    setCurrentPage(1);
+  };
+
+  const handleAutocompleteSelect = (item) => {
+    setSearchTerm(item.name);
+    setSelectedFilm(item);
+    setFilterCategory("All");
+    setCurrentPage(1);
+  };
+
+  const handleAutocompleteInputChange = (value) => {
+    setSearchTerm(value || "");
+    if (!value) setSelectedFilm(null); // Clear selected film when input is empty
+    setFilterCategory("All");
+    setCurrentPage(1);
   };
 
   return (
     <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto antialiased">
       <div className="lg:px-4 lg:py-16 md:px-4 md:py-12 sm:py-2">
-        <div className="flex flex-row">
-          <div className="basis-9/12">
-            <h2 className="lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
-              Discover Our Range of High-Performance Solar Films
-            </h2>
-            <p className="font-medium text-textGray lg:text-xl sm:mt-2">
-              Tailored Solutions to Enhance Comfort, Efficiency, and Protection
-              for Every Space
-            </p>
-          </div>
-          <div className="basis-3/12 mt-32">
-            {/* Autocomplete Component */}
-            <div className="mb-4">
-              <Autocomplete
-                onSelect={(item) => {
-                  setSearchTerm(item.name); // Ensure item.name is a string
-                }}
-                onInputChange={(value) => {
-                  setSearchTerm(value || ""); // Ensure value is a string
-                }}
-                placeholder="Search for a solar film..."
-              >
-                {solarFilmsData.map((film) => (
-                  <AutocompleteItem key={film.id} value={film.name}>
-                    {film.name}
-                  </AutocompleteItem>
-                ))}
-              </Autocomplete>
-            </div>
-          </div>
+        <div className="lg:w-7/12 lg:mb-14 md:mb-8 sm:mb-6">
+          <h2 className="lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
+            Discover Our Range of High-Performance Solar Films
+          </h2>
+          <p className="font-medium text-textGray lg:text-xl sm:mt-2">
+            Tailored Solutions to Enhance Comfort, Efficiency, and Protection
+            for Every Space
+          </p>
+        </div>
+
+        {/* Autocomplete Component */}
+        <div className="mb-4">
+          <Autocomplete
+            onSelect={handleAutocompleteSelect}
+            onInputChange={handleAutocompleteInputChange}
+            placeholder="Search for a solar film..."
+          >
+            {solarFilmsData.map((film) => (
+              <AutocompleteItem key={film.id} value={film.name}>
+                {film.name}
+              </AutocompleteItem>
+            ))}
+          </Autocomplete>
         </div>
 
         {/* Filter Buttons and Listbox for Mobile */}
-        <div className="flex items-center flex-wrap gap-2 mt-6 mb-8">
-          <div className="lg:flex md:flex sm:hidden">
-            <span>
-              <FilterIcon />
-            </span>
-            <h6 className="text-sm font-medium text-secondary pl-2">
-              Filter |
-            </h6>
-          </div>
-
+        <div className="flex items-center flex-wrap gap-2 mb-8">
           {/* Desktop Filter Buttons */}
           <div className="hidden lg:flex gap-2">
             {categories.map((category) => (
               <button
                 key={category}
-                onClick={() => handleCategoryChange(category)} // Use the same handler
+                onClick={() => handleCategoryChange(category)}
                 className={`px-2 py-1 text-sm font-medium text-secondary rounded-md ${
                   filterCategory === category
                     ? "bg-primary border-2 border-primary text-white"
                     : "bg-transparent border-2 border-gray-300 text-gray-700"
-                } hover:bg-primary border-2  hover:text-white cursor-pointer`}
+                } hover:bg-primary hover:text-white cursor-pointer`}
               >
                 {category}
               </button>
@@ -158,7 +148,7 @@ const SolarFilmsData = () => {
               defaultSelectedKeys={["All"]}
               onSelectionChange={(keys) => {
                 const selected = Array.from(keys)[0];
-                handleCategoryChange(selected); // Use the same handler
+                handleCategoryChange(selected);
               }}
               classNames={{
                 listbox: "text-secondary",
@@ -182,7 +172,7 @@ const SolarFilmsData = () => {
               key={product.id}
               href={`/Solar-spec-page/${encodeURIComponent(product.slug)}`}
             >
-              <div key={product.id}>
+              <div>
                 <div className="rounded-2xl lg:py-12 md:py-12 sm:py-6 bg-white">
                   <div className="mx-auto">
                     <Image
@@ -238,13 +228,6 @@ const SolarFilmsData = () => {
                     </button>
                   </div>
                 </div>
-                <div>
-                  {/* 
-                  <p className="text-sm lg:pt-2">
-                    {truncateText(product.filmDescription, 25)}
-                  </p>
-                  */}
-                </div>
               </div>
             </Link>
           ))}
@@ -257,7 +240,7 @@ const SolarFilmsData = () => {
             total={totalPages}
             initialPage={1}
             page={currentPage}
-            onChange={handlePageChange}
+            onChange={setCurrentPage}
           />
         </div>
       </div>
@@ -266,8 +249,6 @@ const SolarFilmsData = () => {
 };
 
 export default SolarFilmsData;
-
-// Other components remain unchanged
 
 function SunRejection() {
   return (
