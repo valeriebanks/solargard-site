@@ -128,6 +128,8 @@ export const solarFilmsData = [
     id: 4,
     name: "Chrome 245 XC",
     slug: "chrome-245-xc",
+    label: "Chrome 245 XC",
+    key: "chrome 245 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Chrome_245_XC.pdf",
     image:
@@ -168,6 +170,8 @@ export const solarFilmsData = [
     id: 5,
     name: "Chrome 270 XC",
     slug: "chrome-270-xc",
+    label: "Chrome 270 XC",
+    key: "chrome 270 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Chrome_270_XC.pdf",
     image:
@@ -208,6 +212,8 @@ export const solarFilmsData = [
     id: 6,
     name: "Chrome 285 XC",
     slug: "chrome-285-xc",
+    label: "Chrome 285 XC",
+    key: "chrome 285 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Chrome_285_XC.pdf",
     image:
@@ -248,6 +254,8 @@ export const solarFilmsData = [
     id: 7,
     name: "Silver 44 XC",
     slug: "silver-44-xc",
+    label: "Silver 44 XC",
+    key: "silver 44 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Silver_44_XC.pdf",
     description:
@@ -290,6 +298,8 @@ export const solarFilmsData = [
     id: 8,
     name: "Silver 60 XC",
     slug: "silver-60-xc",
+    label: "Silver 60 XC",
+    key: "silver 60 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Silver_60_XC.pdf",
     image:
@@ -330,6 +340,8 @@ export const solarFilmsData = [
     id: 9,
     name: "Silver 80 XC",
     slug: "silver-80-xc",
+    label: "Silver 80 XC",
+    key: "silver 80 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Silver_80_XC.pdf",
     image:
@@ -370,6 +382,8 @@ export const solarFilmsData = [
     id: 10,
     name: "Sky Black 99 XC",
     slug: "sky-black-99-xc",
+    label: "Sky Black XC",
+    key: "sky black xc",
     category: "Exterior Mirror",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Mirror/Sky_Black_99_XC.pdf",
@@ -411,6 +425,8 @@ export const solarFilmsData = [
     id: 11,
     name: "Vista 90 XC",
     slug: "vista-90-xc",
+    label: "Vista 90 XC",
+    key: "vista 90 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Vista_90_XC.pdf",
     image:
@@ -451,6 +467,8 @@ export const solarFilmsData = [
     id: 12,
     name: "Vista 99 XC",
     slug: "vista-99-xc",
+    label: "Vista 99 XC",
+    key: "vista 99 xc",
     category: "Exterior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Mirror/Vista_99_XC.pdf",
     image:
@@ -491,6 +509,8 @@ export const solarFilmsData = [
     id: 13,
     name: "Clarity 245 XC",
     slug: "clarity-245-xc",
+    label: "Clarity 245 XC",
+    key: "clarity 245 xc",
     category: "Exterior Innovative",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Clarity_245_XC.pdf",
@@ -532,6 +552,8 @@ export const solarFilmsData = [
     id: 14,
     name: "Clarity 333 XC",
     slug: "clarity-333-xc",
+    label: "Clarity 333 XC",
+    key: "clarity 333 xc",
     category: "Exterior Innovative",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Clarity_333_XC.pdf",
@@ -573,6 +595,8 @@ export const solarFilmsData = [
     id: 15,
     name: "Spectra 333 XC",
     slug: "spectra-333-xc",
+    label: "Spectra 333 XC",
+    key: "spectra 333 xc",
     category: "Exterior Innovative",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Spectra_333_XC.pdf",
@@ -614,6 +638,8 @@ export const solarFilmsData = [
     id: 16,
     name: "Spectra 22 XC",
     slug: "spectra-22-xc",
+    label: "Spectra 22 XC",
+    key: "spectra 22 xc",
     category: "Exterior Innovative",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Spectra_22_XC.pdf",
@@ -655,6 +681,8 @@ export const solarFilmsData = [
     id: 17,
     name: "Spectra 44 XC",
     slug: "spectra-44-xc",
+    label: "Spectra 44 XC",
+    key: "spectra 44 xc",
     category: "Exterior Innovative",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Spectra_44_XC.pdf",
@@ -696,6 +724,8 @@ export const solarFilmsData = [
     id: 18,
     name: "Azur 80 XC",
     slug: "azur-80-xc",
+    label: "Azur 80 XC",
+    key: "azur 80 xc",
     category: "Exterior Colour",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Innovative/Spectra_333_XC.pdf",
@@ -737,6 +767,8 @@ export const solarFilmsData = [
     id: 19,
     name: "Bronze 80 XC",
     slug: "bronze-80-xc",
+    label: "Bronze 80 XC",
+    key: "bronze 80 xc",
     category: "Exterior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Colour/Bronze_80_XC.pdf",
     image:
@@ -777,6 +809,8 @@ export const solarFilmsData = [
     id: 20,
     name: "Copper 80 XC",
     slug: "copper-80-xc",
+    label: "Copper 80 XC",
+    key: "copper 80 xc",
     category: "Exterior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Colour/Copper_80_XC.pdf",
     image:
@@ -817,6 +851,8 @@ export const solarFilmsData = [
     id: 21,
     name: "Green 80 XC",
     slug: "green-80-xc",
+    label: "Green 80 XC",
+    key: "green 80 xc",
     category: "Exterior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Colour/Green_80_XC.pdf",
     image:
@@ -857,6 +893,8 @@ export const solarFilmsData = [
     id: 22,
     name: "Azur 80 XC",
     slug: "azur-80-xc",
+    label: "Azur 80 XC",
+    key: "azur 80 xc",
     category: "Exterior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Colour/Azur_80_XC.pdf",
     image:
@@ -897,6 +935,8 @@ export const solarFilmsData = [
     id: 23,
     name: "Charcoal 95 XC",
     slug: "charcoal-95-xc",
+    label: "Charcoal 80 XC",
+    key: "charcoal 80 xc",
     category: "Exterior Neutral",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Neutral/Charcoal_95_XC.pdf",
@@ -938,6 +978,8 @@ export const solarFilmsData = [
     id: 24,
     name: "Natural 65 XC",
     slug: "natural-65-xc",
+    label: "Natural 65 XC",
+    key: "natural 65 xc",
     category: "Exterior Neutral",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Neutral/Natuarl_65_XC.pdf",
@@ -979,6 +1021,8 @@ export const solarFilmsData = [
     id: 25,
     name: "Natural 80 XC",
     slug: "natural-80-xc",
+    label: "Natural 80 XC",
+    key: "natural 80 xc",
     category: "Exterior Neutral",
     PDFDownloadLink:
       "/PDF/Solar-films-specs/Exterior-Neutral/Natuarl_80_XC.pdf",
@@ -1020,6 +1064,8 @@ export const solarFilmsData = [
     id: 26,
     name: "Nickel 80 XC",
     slug: "nickel-80-xc",
+    label: "Nickel 80 XC",
+    key: "nickel 80 xc",
     category: "Exterior Neutral",
     PDFDownloadLink: "/PDF/Solar-films-specs/Exterior-Neutral/Nickel_80_XC.pdf",
     image:
@@ -1138,6 +1184,8 @@ export const solarFilmsData = [
     id: 27,
     name: "Alu 50 Static",
     slug: "alu-50-static",
+    label: "Alu 50 Static",
+    key: "alu 50 static",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Alu_50_Static.pdf",
     image:
@@ -1178,6 +1226,8 @@ export const solarFilmsData = [
     id: 28,
     name: "Alu 70 C",
     slug: "alu-70-c",
+    label: "Alu 70 C",
+    key: "alu 70 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Alu_70.pdf",
     image:
@@ -1218,6 +1268,8 @@ export const solarFilmsData = [
     id: 29,
     name: "Alu 80 C",
     slug: "alu-80-c",
+    label: "Alu 80 C",
+    key: "alu 80 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Alu_80C.pdf",
     image:
@@ -1258,6 +1310,8 @@ export const solarFilmsData = [
     id: 30,
     name: "Alu 80 Static",
     slug: "alu-80-static",
+    label: "Alu 80 Static",
+    key: "alu 80 static",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Alu_80_Static.pdf",
     image:
@@ -1298,6 +1352,8 @@ export const solarFilmsData = [
     id: 31,
     name: "Silver 50 C",
     slug: "silver-50-c",
+    label: "Silver 50 C",
+    key: "silver 50 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_50_C.pdf",
     image:
@@ -1338,6 +1394,8 @@ export const solarFilmsData = [
     id: 32,
     name: "Silver 70 C",
     slug: "silver-70-c",
+    label: "Silver 70 C",
+    key: "silver 70 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_70_C.pdf",
     image:
@@ -1378,6 +1436,8 @@ export const solarFilmsData = [
     id: 33,
     name: "Silver 80 C",
     slug: "silver-80-c",
+    label: "Silver 80 C",
+    key: "silver 80 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_80_C.pdf",
     image:
@@ -1418,6 +1478,8 @@ export const solarFilmsData = [
     id: 34,
     name: "Silver 95 C",
     slug: "silver-95-c",
+    label: "Silver 95 C",
+    key: "silver 95 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_95_C.pdf",
     image:
@@ -1458,6 +1520,8 @@ export const solarFilmsData = [
     id: 35,
     name: "Silver 99 C",
     slug: "silver-99-c",
+    label: "Silver 99 C",
+    key: "silver 99 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_99_C.pdf",
     image:
@@ -1498,6 +1562,8 @@ export const solarFilmsData = [
     id: 36,
     name: "Vista 80 C",
     slug: "vista-80-c",
+    label: "Vista 80 C",
+    key: "vista 80 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Silver_80_C.pdf",
     image:
@@ -1538,6 +1604,8 @@ export const solarFilmsData = [
     id: 37,
     name: "Vista 90 C",
     slug: "vista-90-c",
+    label: "Vista 90 C",
+    key: "vista 90 c",
     category: "Interior Mirror",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Mirror/Vista_90_C.pdf",
     image:
@@ -1578,6 +1646,8 @@ export const solarFilmsData = [
     id: 38,
     name: "Blue 80 C",
     slug: "blue-80-c",
+    label: "Blue 80 C",
+    key: "blue 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Blue_80_C.pdf",
     image:
@@ -1618,6 +1688,8 @@ export const solarFilmsData = [
     id: 39,
     name: "Bronze 80 C",
     slug: "bronze-80-c",
+    label: "Bronze 80 C",
+    key: "bronze 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Bronze_80_C.pdf",
     image:
@@ -1658,6 +1730,8 @@ export const solarFilmsData = [
     id: 40,
     name: "Copper 50 C",
     slug: "copper-50-c",
+    label: "Copper 80 C",
+    key: "copper 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Copper_50_C.pdf",
     image:
@@ -1698,6 +1772,8 @@ export const solarFilmsData = [
     id: 41,
     name: "Copper 65 C",
     slug: "copper-65-c",
+    label: "Copper 65 C",
+    key: "copper 65 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Copper_65_C.pdf",
     image:
@@ -1738,6 +1814,8 @@ export const solarFilmsData = [
     id: 42,
     name: "Copper 80 C",
     slug: "copper-80-c",
+    label: "Copper 80 C",
+    key: "copper 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Copper_80_C.pdf",
     image:
@@ -1778,6 +1856,8 @@ export const solarFilmsData = [
     id: 43,
     name: "Green 80 C",
     slug: "green-80-c",
+    label: "Green 80 C",
+    key: "green 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Green_80_C.pdf",
     image:
@@ -1818,6 +1898,8 @@ export const solarFilmsData = [
     id: 44,
     name: "Gold 80 C",
     slug: "gold-80-c",
+    label: "Gold 80 C",
+    key: "gold 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Gold_80_C.pdf",
     image:
@@ -1857,7 +1939,9 @@ export const solarFilmsData = [
   {
     id: 45,
     name: "Cobalt 80 C",
-    slug: "Cobalt-80-c",
+    slug: "cobalt-80-c",
+    label: "Cobalt 80 C",
+    key: "cobalt 80 c",
     category: "Interior Colour",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Colour/Cobalt_80_C.pdf",
     image:
@@ -1898,6 +1982,8 @@ export const solarFilmsData = [
     id: 46,
     name: "Steel 50 C",
     slug: "steel-50-c",
+    label: "Steel 50 C",
+    key: "steel 50 c",
     category: "Interior Neutral",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Neutral/Steel_50_C.pdf",
     image:
@@ -1938,6 +2024,8 @@ export const solarFilmsData = [
     id: 47,
     name: "Steel 65 C",
     slug: "steel-65-c",
+    label: "Steel 65 C",
+    key: "steel 65 c",
     category: "Interior Neutral",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Neutral/Steel_65_C.pdf",
     image:
@@ -1978,6 +2066,8 @@ export const solarFilmsData = [
     id: 48,
     name: "Steel 75 C",
     slug: "steel-75-c",
+    label: "Steel 75 C",
+    key: "steel 75 c",
     category: "Interior Neutral",
     PDFDownloadLink: "/PDF/Solar-films-specs/Interior-Neutral/Steel_75_C.pdf",
     image:
@@ -2018,6 +2108,8 @@ export const solarFilmsData = [
     id: 49,
     name: "Multiglass 66 C",
     slug: "multiglass-66-c",
+    label: "Multiglass 66 C",
+    key: "multiglass 66 c",
     category: "Multi Alloy",
     PDFDownloadLink: "/PDF/Solar-films-specs/Multi-Alloy/Multiglass_66_C.pdf",
     image:
@@ -2058,6 +2150,8 @@ export const solarFilmsData = [
     id: 50,
     name: "Spectra 30 C",
     slug: "spectra-30-c",
+    label: "Spectra 30 C",
+    key: "spectra 30 c",
     category: "Multi Alloy",
     PDFDownloadLink: "/PDF/Solar-films-specs/Multi-Alloy/Spectra_66_C.pdf",
     image:
@@ -2098,6 +2192,8 @@ export const solarFilmsData = [
     id: 51,
     name: "Spectra 33 C",
     slug: "spectra-33-c",
+    label: "Spectra 33 C",
+    key: "spectra 33 c",
     category: "Multi Alloy",
     PDFDownloadLink: "/PDF/Solar-films-specs/Multi-Alloy/Spectra_33_C.pdf",
     image:
@@ -2138,6 +2234,8 @@ export const solarFilmsData = [
     id: 52,
     name: "Amber C",
     slug: "amber-c",
+    label: "Amber C",
+    key: "amber c",
     category: "Anti UV",
     PDFDownloadLink: "/PDF/Solar-films-specs/Anti-UV/Amber_C.pdf",
     image:
@@ -2178,6 +2276,8 @@ export const solarFilmsData = [
     id: 53,
     name: "Clear 1 UVC",
     slug: "clear-1-ucv",
+    label: "Clear 1 UCV",
+    key: "clear 1 ucv",
     category: "Anti UV",
     PDFDownloadLink: "/PDF/Solar-films-specs/Anti-UV/Clear_1_UVC.pdf",
     image:
@@ -2218,6 +2318,8 @@ export const solarFilmsData = [
     id: 54,
     name: "Grey 30 UVC",
     slug: "grey-30-uvc",
+    label: "Grey 30 UCV",
+    key: "grey 30 ucv",
     category: "Anti UV",
     PDFDownloadLink: "/PDF/Solar-films-specs/Anti-UV/Grey_30_UVC.pdf",
     image:
@@ -2258,6 +2360,8 @@ export const solarFilmsData = [
     id: 55,
     name: "Neutral 40 UVC",
     slug: "neutral-40-uvc",
+    label: "Neutral 40 UCV",
+    key: "neutral 40 ucv",
     category: "Anti UV",
     PDFDownloadLink: "/PDF/Solar-films-specs/Anti-UV/Neutral_40_UCV.pdf",
     image:

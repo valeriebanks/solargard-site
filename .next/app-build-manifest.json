@@ -11,6 +11,12 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/Solar-Films/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Solar-Films/page.css",
+      "static/chunks/app/Solar-Films/page.js"
     ]
   }
 }
