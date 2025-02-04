@@ -21,7 +21,7 @@ const windowFilms = [
   {
     name: "Switchable Glass",
     description: "Dynamic Privacy, Light Control, Modern Aesthetics",
-    href: "/",
+    href: "/Switchable-Glass",
     icon: ChartPieIcon,
   },
   {

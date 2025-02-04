@@ -166,20 +166,20 @@ export default function ServiceCardGrid() {
 
   return (
     <div className="w-full bg-grey">
-      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-9/12 sm:w-11/12 xxl:py-32 xl:py-28 lg:py-36 mx-auto">
+      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-32 xl:py-28 lg:py-36 mx-auto">
         <div>
           <h2 className="mb-4 text-4xl font-bold text-secondary">
             Our Services
           </h2>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 mx-auto gap-4 gap-y-8 text-secondary">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 mx-auto lg:gap-4 md:gap-4 sm:gap-2 lg:gap-y-8 md:gap-y-4 sm:gap-y-4  text-secondary">
           {CardData.map((data, index) => (
             <div
               key={data.id}
               className="relative bg-cover bg-center flex flex-col overflow-hidden"
               ref={(el) => (containerRefs.current[index] = el)}
             >
-              <div className="relative rounded-lg xxl:h-60 xl:h-60 lg:h-48 md:h-400 sm:h-44 overflow-hidden">
+              <div className="relative rounded-lg xxl:h-60 xl:h-60 lg:h-48 md:h-300 sm:h-44 overflow-hidden">
                 <Image
                   className="rounded-lg"
                   src={data.imageUrl}

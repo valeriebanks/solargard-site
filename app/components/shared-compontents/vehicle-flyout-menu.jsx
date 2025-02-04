@@ -21,25 +21,25 @@ const windowFilms = [
   {
     name: "Vehicle Tinting",
     description: "Heat Rejection, UV Protection, UV Protection",
-    href: "/Solar-Films",
+    href: "/Vehicle-tinting",
     icon: ChartPieIcon,
   },
   {
-    name: "Vehicle Wraps",
+    name: "Vehicle Wrapping",
     description: "Custom Designs, Vehicle Branding, Paint Protection",
-    href: "/Casper",
+    href: "/",
     icon: FingerPrintIcon,
   },
   {
     name: "Vehicle De-Chroming",
-    description: "Cloaking Film, Obscures Content on Digital Screens",
-    href: "/Casper",
+    description: "",
+    href: "/",
     icon: FingerPrintIcon,
   },
   {
     name: "PPF Protection",
-    description: "Cloaking Film, Obscures Content on Digital Screens",
-    href: "/Casper",
+    description: "",
+    href: "/",
     icon: FingerPrintIcon,
   },
 ];

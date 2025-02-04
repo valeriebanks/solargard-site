@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Link } from "react-scroll";
 import CarTintingFAQs from "../components/FAQs/car-tinting-faqs";
 import OurServiceCarousel from "../components/shared-compontents/our-services-carousel";
+import VehicleSevices from "../components/shared-compontents/vehicle-services";
 import ContactUs from "../components/shared-compontents/Contact-Us";
 import Footer from "../components/shared-compontents/Footer";
 
@@ -311,10 +312,7 @@ export default function VehicleTinting() {
                       <div>{tier.coupe.full}</div>
                       <div>€{tier.coupe.fullprice}</div>
                     </div>
-                    <div
-                      className="flex justify-between font-medium7232876b
-                    "
-                    >
+                    <div className="flex justify-between font-medium">
                       <div>{tier.coupe.half}</div>
                       <div>€{tier.coupe.halfprice}</div>
                     </div>
@@ -337,6 +335,9 @@ export default function VehicleTinting() {
                 </h6>
               </div>
             </div>
+          </div>
+          <div>
+            <VehicleSevices />
           </div>
           <div className="mt-48">
             <div className="lg:w-9/12" id="specsScrollTo">

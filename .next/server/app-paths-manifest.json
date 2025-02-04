@@ -1,4 +1,3 @@
 {
-  "/Solar-Films/page": "app/Solar-Films/page.js",
-  "/Solar-spec-page/[slug]/page": "app/Solar-spec-page/[slug]/page.js"
+  "/Vehicle-tinting/page": "app/Vehicle-tinting/page.js"
 }
