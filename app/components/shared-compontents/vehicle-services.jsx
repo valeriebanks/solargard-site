@@ -17,7 +17,7 @@ const VehicleServices = [
     id: "02",
     title: "Calliper Painting",
     Description:
-      "Give your vehicle a sleek, custom look while protecting your headlights from scratches and UV damage.",
+      "Add a bold, custom touch to your vehicle with our professional caliper painting service.",
     imageUrl: "/images/car-tinting-imgs/Calliper.png",
     imageAlt: "Solar Gard Ireland Calliper Painting",
     PageUrl: "/",
@@ -39,7 +39,7 @@ const VehicleServices = [
     id: "04",
     title: "De-Chroming",
     Description:
-      "Upgrade your vehicle’s look with sleek & stylish with De-Chroming!",
+      "Upgrade your vehicle’s look with sleek & stylish with De-Chroming",
     imageUrl: "/images/car-tinting-imgs/De-chroming.png",
     imageAlt: "Solar Gard Ireland, Vehicle Wrapping",
     PageUrl: "/",
