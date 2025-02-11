@@ -1,28 +1,16 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/CoverStyl/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/CoverStyl/page.css",
       "static/chunks/app/CoverStyl/page.js"
     ],
-    "/Vehicle-tinting/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Vehicle-tinting/page.css",
-      "static/chunks/app/Vehicle-tinting/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ]
   }
 }

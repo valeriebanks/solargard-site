@@ -2,13 +2,12 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
+import TextureModal from "./Modals/TextureModal";
 
 const slides = [
   {
     category: "Wood",
     title: "Wood Collection",
-    Description:
-      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
     images: [
       {
         src: "/images/coverstyl/wood-textures/Orangey-Wenge.jpg",
@@ -58,6 +57,7 @@ const slides = [
   {
     category: "Stone",
     title: "Stone Collection",
+    description: "The stone imitation adhesive is perfect for a natural look.",
     images: [
       {
         src: "/images/coverstyl/Stone-textures/Statuary-White.jpg",
@@ -84,6 +84,7 @@ const slides = [
   {
     category: "Textile",
     title: "Textile Collection",
+    description: "The textile imitation adhesive is perfect for a cozy look.",
     images: [
       {
         src: "/images/coverstyl/Textile-textures/Mika-Light.jpg",
@@ -110,6 +111,8 @@ const slides = [
   {
     category: "Concrete",
     title: "Concrete Collection",
+    description:
+      "The concrete imitation adhesive is perfect for an urban look.",
     images: [
       {
         src: "/images/coverstyl/Concrete-textures/Cement-Grey.jpg",
@@ -136,6 +139,7 @@ const slides = [
   {
     category: "Colour",
     title: "Colour Collection",
+    description: "The colour imitation adhesive is perfect for a pop look.",
     images: [
       {
         src: "/images/coverstyl/Colour-textures/Blues.jpg",
@@ -162,6 +166,7 @@ const slides = [
   {
     category: "Glitter",
     title: "Glitter Collection",
+    description: "The glitter imitation adhesive is perfect for a shiny look.",
     images: [
       {
         src: "/images/coverstyl/Glitter-textures/Green-Disco.jpg",
@@ -187,23 +192,233 @@ const slides = [
   },
 ];
 
+const textureData = [
+  {
+    id: "Orangey Wenge",
+    description:
+      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
+    title: "Orangey Wenge",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    adhesive: "Acrylic PSA",
+    warrenty: "10 yesars",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/modal-imgs/Orangey-Wenge/modal-orangey-wenge_01.jpg",
+        alt: "Solar Gard CoverSttyl'",
+      },
+      {
+        src: "/images/coverstyl/modal-imgs/Orangey-Wenge/modal-orangey-wenge_02.jpg",
+        alt: "Solar Gard CoverSttyl'",
+      },
+    ],
+  },
+  {
+    id: "Beige Oak",
+    title: "Beige Oak",
+    description:
+      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    adhesive: "Acrylic PSA",
+    warrenty: "10 yesars",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/wood-textures/Orangey-Wenge.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/wood-textures/Orangey-Wenge-Detail1.jpg",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Grey Line Oak",
+    title: "Grey Line Oak",
+    description:
+      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/wood-textures/Orangey-Wenge.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/wood-textures/Orangey-Wenge-Detail1.jpg",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Orangey Pine",
+    title: "Orangey Pine",
+    description:
+      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
+    TypeofProduct: "PVC",
+    witdh: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/wood-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/wood-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Aged Birch",
+    title: "Aged Birch",
+    description:
+      "The wood imitation adhesive allows you to bring a touch of nature into your space. Strong and easy to install, it is the perfect product to change the design of a room in the blink of an eye.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/wood-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/wood-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Silver Blue",
+    title: "Silver Blue",
+    description:
+      "Whether it's with a rust or aluminum effect, materials and textures are present in our Steel range. Add a silver or gold touch to your interior. Are you leaning towards an industrial look? The sheet metal or carbon fiber effect will be ideal.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Corten",
+    title: "Corten",
+    description:
+      "Whether it's with a rust or aluminum effect, materials and textures are present in our Steel range. Add a silver or gold touch to your interior. Are you leaning towards an industrial look? The sheet metal or carbon fiber effect will be ideal.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Mat Aluminium",
+    title: "Mat Aluminium",
+    description:
+      "Whether it's with a rust or aluminum effect, materials and textures are present in our Steel range. Add a silver or gold touch to your interior. Are you leaning towards an industrial look? The sheet metal or carbon fiber effect will be ideal.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Gold Black",
+    title: "Gold Black",
+    description:
+      "Whether it's with a rust or aluminum effect, materials and textures are present in our Steel range. Add a silver or gold touch to your interior. Are you leaning towards an industrial look? The sheet metal or carbon fiber effect will be ideal.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+    ],
+  },
+  {
+    id: "Chromed Metal",
+    title: "Chromed Metal",
+    description:
+      "Whether it's with a rust or aluminum effect, materials and textures are present in our Steel range. Add a silver or gold touch to your interior. Are you leaning towards an industrial look? The sheet metal or carbon fiber effect will be ideal.",
+    TypeofProduct: "PVC",
+    width: "122cm",
+    height: "50m",
+    installation: "Interior",
+    images: [
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+      {
+        src: "/images/coverstyl/Steel-textures/",
+        alt: "",
+      },
+    ],
+  },
+];
+
 export default function CoverStylSliderTextures() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedTexture, setSelectedTexture] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const containerRef = useRef(null);
 
   useEffect(() => {
+    if (!containerRef.current) return;
+    const images = Array.from(containerRef.current.children);
     gsap.fromTo(
-      containerRef.current.children,
-      { opacity: 0, y: -50 },
-      { opacity: 1, y: 0, stagger: 0.1, duration: 0.6, ease: "power2.out" }
+      images,
+      { y: -50, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.1, duration: 0.6, ease: "power2.out" }
     );
-  }, []);
+  }, [currentIndex]);
 
   const goToSlide = (index) => {
     if (index === currentIndex) return;
 
-    const images = containerRef.current.children;
-
+    const images = Array.from(containerRef.current.children);
     gsap.to(images, {
       y: 50,
       opacity: 0,
@@ -212,47 +427,59 @@ export default function CoverStylSliderTextures() {
       ease: "power2.in",
       onComplete: () => {
         setCurrentIndex(index);
-
-        gsap.fromTo(
-          images,
-          { y: -60, opacity: 0 },
-          { y: 0, opacity: 1, stagger: 0.1, duration: 0.6, ease: "power2.out" }
-        );
       },
     });
   };
 
+  const openModal = (texture) => {
+    console.log("Opening modal with texture:", texture); // Debugging line
+    if (texture) {
+      // Find the specific texture details from the textureData array
+      const textureDetails = textureData.find(
+        (item) => item.title === texture.title
+      );
+      if (textureDetails) {
+        setSelectedTexture(textureDetails); // Set the selected texture details
+        setIsModalOpen(true);
+      } else {
+        console.error("Texture details not found for:", texture.title);
+      }
+    } else {
+      console.error("Texture is undefined or null"); // Debugging line
+    }
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedTexture(null);
+  };
+
   return (
-    <div className="w-full bg-grey">
-      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-0 mx-auto antialiased">
-        <div className="flex justify-between items-center mb-6">
-          <div>
+    <>
+      <div className="w-full bg-grey">
+        <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-0 mx-auto antialiased">
+          <div className="flex justify-between items-center mb-6">
             <h2 className="text-4xl text-secondary font-bold">
               {slides[currentIndex].title}
             </h2>
-          </div>
-          <div className="">
-            {/* Navigation Buttons */}
-            {slides.map((slide, index) => (
-              <button
-                key={slide.category}
-                onClick={() => goToSlide(index)}
-                className={`px-4 py-1 mr-3 rounded-md font-medium transition-all 
+            <div className="flex flex-wrap justify-end gap-3">
+              {slides.map((slide, index) => (
+                <button
+                  key={slide.category}
+                  onClick={() => goToSlide(index)}
+                  className={`px-6 py-2 rounded-lg font-medium text-sm transition-all 
               ${
                 currentIndex === index
-                  ? "bg-gray-400 border-2 border-white text-white font-medium text-sm"
-                  : "text-black border-2 border-gray-300 text-sm font-medium hover:bg-gray-200"
+                  ? "bg-gray-400 border-2 border-white text-white font-medium"
+                  : "text-black border-2 border-gray-300 hover:bg-gray-200"
               }`}
-              >
-                {slide.category}
-              </button>
-            ))}
+                >
+                  {slide.category}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="relative w-full mx-auto">
-          {/* Slide Content */}
-          <div>
-            {/* Image Grid Layout */}
+          <div className="relative w-full mx-auto">
             <div
               ref={containerRef}
               className="grid grid-cols-3 gap-4 items-stretch"
@@ -266,6 +493,7 @@ export default function CoverStylSliderTextures() {
                     width={400}
                     height={600}
                     className="w-full h-full object-cover shadow-md rounded-tr-xl"
+                    onClick={() => openModal(slides[currentIndex].images[0])}
                   />
                   <p className="mt-2 text-sm font-medium">
                     {slides[currentIndex].images[0].title}
@@ -275,23 +503,36 @@ export default function CoverStylSliderTextures() {
 
               {/* Right Side (2x2 Grid) */}
               <div className="col-span-2 grid grid-cols-2 grid-rows-2 gap-4">
-                {slides[currentIndex].images.slice(1).map((img, index) => (
-                  <div key={index} className="w-full h-full">
+                {slides[currentIndex].images.slice(1).map((texture) => (
+                  <div
+                    key={texture.title} // Use a unique key
+                    onClick={() => openModal(texture)}
+                    className="w-full h-full cursor-pointer"
+                  >
                     <Image
-                      src={img.src}
-                      alt={img.title}
+                      src={texture.src}
+                      alt={texture.title}
                       width={200}
                       height={200}
                       className="w-full h-[300px] object-cover shadow-md rounded-tr-xl"
                     />
-                    <p className="mt-2 text-sm font-medium">{img.title}</p>
+                    <p className="mt-2 text-sm font-medium">{texture.title}</p>
                   </div>
                 ))}
               </div>
             </div>
           </div>
         </div>
+
+        {/* Render Modal if a texture is selected */}
+        {isModalOpen && selectedTexture && (
+          <TextureModal
+            texture={selectedTexture}
+            isOpen={isModalOpen}
+            closeModal={closeModal} // Pass closeModal as a function
+          />
+        )}
       </div>
-    </div>
+    </>
   );
 }
