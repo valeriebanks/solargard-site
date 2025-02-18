@@ -59,7 +59,8 @@ export const WoodData = [
       {
         name: "Original Oak",
         code: "AA14",
-        image: "/images/coverstyl/materials/wood/AA14.jpg",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739800786/AA14_oqgwg0.jpg",
       },
       {
         name: "Grey Line Oak",
@@ -88,12 +89,14 @@ export const WoodData = [
       {
         name: "Blue Ebony",
         code: "AB05",
-        image: "/images/coverstyl/materials/wood/AB05.jpg",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739800790/AB05_jt9pkq.jpg",
       },
       {
         name: "Turquoise",
         code: "AB06",
-        image: "/images/coverstyl/materials/wood/AB06.jpg",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739800791/AB06_rsxemj.jpg",
       },
       {
         name: "Dark Blue",
@@ -151,7 +154,8 @@ export const WoodData = [
       {
         name: "Yellow Pine",
         code: "AF09",
-        image: "/images/coverstyl/materials/wood/AF09.jpg",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739800801/AF09_lgjc7q.jpg",
       },
       {
         name: "Hazelnut Cream",
@@ -779,7 +783,7 @@ export const WoodData = [
         name: "Classic White Oak",
         code: "CT77",
         image:
-          "https://res.cloudinary.com/solar-gard/image/upload/v1739808349/CT77_d40evz.jpg",
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880172/CT77_u0u7db.jpg",
       },
       {
         name: "Basic Yellow Oak",
@@ -930,6 +934,124 @@ export const WoodData = [
         code: "F6",
         image:
           "https://res.cloudinary.com/solar-gard/image/upload/v1739809825/F6_yn08d9.jpg",
+      },
+      {
+        name: "Castagno Caducci",
+        code: "F7",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880856/F7_tt2zh9.jpg",
+      },
+      {
+        name: "Line Oak",
+        code: "G0",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880858/G0_ckpnfh.jpg",
+      },
+      {
+        name: "Patina",
+        code: "G6",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880859/G6_tvrgem.jpg",
+      },
+      {
+        name: "Slats Patina",
+        code: "H10",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880864/H10_oxvfd1.jpg",
+      },
+      {
+        name: "Hardwood Panel",
+        code: "H4",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880861/H4_tm4gsa.jpg",
+      },
+      {
+        name: "Silverblack",
+        code: "H5",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880863/H5_go6ugj.jpg",
+      },
+      {
+        name: "Chevron Oak",
+        code: "H50",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880868/H50_qpinxv.jpg",
+      },
+      {
+        name: "Mario Grey Oak",
+        code: "I10",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880868/I9_dou0dz.jpg",
+      },
+      {
+        name: "Legno",
+        code: "I14",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880874/I10_cvma7r.jpg",
+      },
+      {
+        name: "Soft Pale Oak",
+        code: "I9",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880868/I9_dou0dz.jpg",
+      },
+      {
+        name: "Rich White",
+        code: "J14",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880882/J14_qyungi.jpg",
+      },
+      {
+        name: "Off White",
+        code: "J17",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880878/J17_mjm2qh.jpg",
+      },
+      {
+        name: "Anthracite Grey",
+        code: "J18",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880880/J18_hu7ock.jpg",
+      },
+      {
+        name: "Rich Black",
+        code: "J2",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880877/J2_st2psg.jpg",
+      },
+      {
+        name: "Pearl",
+        code: "MA10",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880881/MA10_qao0mr.jpg",
+      },
+      {
+        name: "Black Night ",
+        code: "MA14",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880884/MA14_hhkrge.jpg",
+      },
+      {
+        name: "Cool Mint ",
+        code: "NE45",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880886/NE45_dfevz1.jpg",
+      },
+      {
+        name: "Tan Grey",
+        code: "NE46",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739880887/NE46_qlanpm.jpg",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
       },
     ],
   },

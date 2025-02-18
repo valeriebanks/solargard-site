@@ -6,7 +6,6 @@ import CoverStylFAQs from "../components/FAQs/coverstyl-faqs";
 import OurServiceCarousel from "../components/shared-compontents/our-services-carousel";
 import ContactUs from "../components/shared-compontents/Contact-Us";
 import Footer from "../components/shared-compontents/Footer";
-import CoverStylSliderTextures from "../components/Coverstyl-collections/coverstyl-slider-textures";
 
 import CostEffective from "/public/images/coverstyl/Cost-Effective.jpg";
 import VersatileDurable from "/public/images/coverstyl/Versatile-Durable.jpg";
@@ -218,9 +217,6 @@ export default function CoverstylePage() {
           </div>
         ))}
       </div>
-      <section className="w-full">
-        <CoverStylSliderTextures />
-      </section>
       <section>
         <CoverStylFAQs />
       </section>
