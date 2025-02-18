@@ -1,4 +1,4 @@
-// File: /Users/shanemurphy/dev.websites/solargard-val-site/app/layout.js
+// File: /Users/shanemurphy/dev.websites/solargard-site/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

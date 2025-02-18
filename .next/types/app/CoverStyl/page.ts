@@ -1,4 +1,4 @@
-// File: /Users/shanemurphy/dev.websites/solargard-val-site/app/CoverStyl/page.js
+// File: /Users/shanemurphy/dev.websites/solargard-site/app/CoverStyl/page.js
 import * as entry from '../../../../app/CoverStyl/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
