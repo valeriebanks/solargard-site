@@ -113,7 +113,8 @@ export const WoodData = [
       {
         name: "Plain White",
         code: "AC04",
-        image: "/images/coverstyl/materials/wood/AC04.jpg",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739891129/AC04_m8esno.jpg",
       },
       {
         name: "Beige Pine",
@@ -503,7 +504,7 @@ export const WoodData = [
         name: "Beige Birch",
         code: "CT28",
         image:
-          "https://res.cloudinary.com/solar-gard/image/upload/v1739800860/CT26_jh1sbk.jpg",
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739800861/CT28_yyvaj3.jpg",
       },
       {
         name: "Brown Birch",
@@ -1042,6 +1043,398 @@ export const WoodData = [
         code: "NE46",
         image:
           "https://res.cloudinary.com/solar-gard/image/upload/v1739880887/NE46_qlanpm.jpg",
+      },
+      {
+        name: "Sandy",
+        code: "NE57",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882254/NE57_i0w132.jpg",
+      },
+      {
+        name: "Cream Grey Oak",
+        code: "NE61",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882301/NE61_vruypj.jpg",
+      },
+      {
+        name: "Brown Hazelwood",
+        code: "NE62",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882307/NE62_quyeak.jpg",
+      },
+      {
+        name: "Pale Hazelwood",
+        code: "NE63",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882314/NE63_rrlgtf.jpg",
+      },
+      {
+        name: "Beige Hazelwood ",
+        code: "NE64",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882320/NE64_nj2xvh.jpg",
+      },
+      {
+        name: "Brown Lined Hazelwood",
+        code: "NE65",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882383/NE65_tbjkas.jpg",
+      },
+      {
+        name: "Brown Lined Cream",
+        code: "NE66",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882390/NE66_r7hwrm.jpg",
+      },
+      {
+        name: "Freijo Laurel",
+        code: "NE68",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882669/NE68_ke4nhb.jpg",
+      },
+      {
+        name: "Crispy White",
+        code: "NF17",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882397/NF17_pgmr8a.jpg",
+      },
+      {
+        name: "Crispy Light Grey",
+        code: "NF18",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882404/NF18_b7gjry.jpg",
+      },
+      {
+        name: "Crispy Beige",
+        code: "NF19",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882410/NF19_l3w6za.jpg",
+      },
+      {
+        name: "Crispy Grey",
+        code: "NF20",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882417/NF20_cxp6uw.jpg",
+      },
+      {
+        name: "Ecru",
+        code: "NF21",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882425/NF21_mdj08m.jpg",
+      },
+      {
+        name: "Sable Grey",
+        code: "NF22",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882432/NF22_jtvttg.jpg",
+      },
+      {
+        name: "Dove Grey",
+        code: "NF23",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882439/NF23_xxnhv1.jpg",
+      },
+      {
+        name: "Winter Breeze",
+        code: "NF24",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882446/NF24_yjy6ng.jpg",
+      },
+      {
+        name: "Twilight",
+        code: "NF25",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739882453/NF25_sm2ppn.jpg",
+      },
+      {
+        name: "Noir",
+        code: "NF26",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884096/NF26_p4mofg.jpg",
+      },
+      {
+        name: "American Oak",
+        code: "NF27",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884107/NF27_xtqyun.jpg",
+      },
+      {
+        name: "Greyish Oak",
+        code: "NF28",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884121/NF28_vjl2qg.jpg",
+      },
+      {
+        name: "Cream Oak",
+        code: "NF29",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884134/NF29_fgjkbd.jpg",
+      },
+      {
+        name: "Fawn Oak",
+        code: "NF30",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884147/NF30_p1judu.jpg",
+      },
+      {
+        name: "Butter Oak",
+        code: "NF31",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884161/NF32_x8dqij.jpg",
+      },
+      {
+        name: "Almond Oak",
+        code: "NF32",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884161/NF32_x8dqij.jpg",
+      },
+      {
+        name: "Brownie Oak",
+        code: "NF33",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884176/NF33_r8cfw0.jpg",
+      },
+      {
+        name: "Tan Oak",
+        code: "NF34",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884190/NF34_qfdcs7.jpg",
+      },
+      {
+        name: "Praliné Oak",
+        code: "NF35",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739887374/NF35_b9bu3k.jpg",
+      },
+      {
+        name: "Biscuit Oak",
+        code: "NF36",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884205/NF36_ruvyse.jpg",
+      },
+      {
+        name: "Gianduia Oak ",
+        code: "NF37",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884218/NF37_cnz1iu.jpg",
+      },
+      {
+        name: "Straw Oak",
+        code: "NF38",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884232/NF38_hgvlx3.jpg",
+      },
+      {
+        name: "Red Oak",
+        code: "NF39",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884246/NF39_nfojlr.jpg",
+      },
+      {
+        name: "Gianduia Oak",
+        code: "NF37",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884218/NF37_cnz1iu.jpg",
+      },
+      {
+        name: "Straw Oak",
+        code: "NF38",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884232/NF38_hgvlx3.jpg",
+      },
+      {
+        name: "Red Oak",
+        code: "NF39",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884246/NF39_nfojlr.jpg",
+      },
+      {
+        name: "Classic Oak",
+        code: "NF40",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884260/NF40_sookc0.jpg",
+      },
+      {
+        name: "Cinnamon Oak",
+        code: "NF41",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884275/NF41_ehoans.jpg",
+      },
+      {
+        name: "Bleached Oak",
+        code: "NF42",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884287/NF42_xek0c8.jpg",
+      },
+      {
+        name: "Bleached Bronze Oak",
+        code: "NF43",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739884301/NF43_x77ijk.jpg",
+      },
+      {
+        name: "Bleached Grey Oak",
+        code: "NF44",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739887591/NF44_an3mfv.jpg",
+      },
+      {
+        name: "Bleached Golden Oak",
+        code: "NF45",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890592/NF45_pope6s.jpg",
+      },
+      {
+        name: "Rich Eiche",
+        code: "NF46",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890592/NF46_jetjp8.jpg",
+      },
+      {
+        name: "Caramel Eiche",
+        code: "NF47",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890593/NF47_pbury4.jpg",
+      },
+      {
+        name: "Yellow Eiche",
+        code: "NF48",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890593/NF48_fulll3.jpg",
+      },
+      {
+        name: "Brown Eiche",
+        code: "NF49",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890593/NF49_pbdccc.jpg",
+      },
+      {
+        name: "Castagno Eiche",
+        code: "NF50",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890593/NF50_ey2wbc.jpg",
+      },
+      {
+        name: "Red Eiche",
+        code: "NF51",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890594/NF51_t7ie8w.jpg",
+      },
+      {
+        name: "Ivory Oak",
+        code: "NF53",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890594/NF53_i7zg0j.jpg",
+      },
+      {
+        name: "Metropolis Oak",
+        code: "NF54",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890595/NF54_qb61ip.jpg",
+      },
+      {
+        name: "Brown Teak",
+        code: "NF55",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890595/NF55_eczffv.jpg",
+      },
+      {
+        name: "Black Teak",
+        code: "NF56",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890596/NF56_osmgeg.jpg",
+      },
+      {
+        name: "Beige Faded Oak",
+        code: "NF57",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739891025/NF57_t8ta8r.jpg",
+      },
+      {
+        name: "Faded Oak",
+        code: "NF58",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890597/NF58_adx4fg.jpg",
+      },
+      {
+        name: "Brown Faded Oak",
+        code: "NF59",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890598/NF59_dj11zj.jpg",
+      },
+      {
+        name: "Black Faded Oak",
+        code: "NF60",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890598/NF60_o6738t.jpg",
+      },
+      {
+        name: "Honey Comb",
+        code: "NF61",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890599/NF61_ylqfh6.jpg",
+      },
+      {
+        name: "Hay Ash",
+        code: "NF62",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890599/NF62_qfyavi.jpg",
+      },
+      {
+        name: "Caramel Eiche",
+        code: "NF47",
+        image:
+          "https://res.cloudinary.com/solar-gard/image/upload/v1739890593/NF47_pbury4.jpg",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
+      },
+      {
+        name: "",
+        code: "",
+        image: "",
       },
       {
         name: "",

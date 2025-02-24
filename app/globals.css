@@ -28,6 +28,9 @@ input::placeholder {
   opacity: 0.9;
 }
 
+.background-gradient {
+  linear-gradient: (to top, #dfe9f3 0%, white 100%);
+}
 /* input[type="text"],
 textarea {
   background-color: #d1d1d1;

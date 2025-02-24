@@ -12,6 +12,7 @@
     "@headlessui/react": "^2.1.9",
     "@heroicons/react": "^2.1.5",
     "@heroui/autocomplete": "^2.3.11",
+    "@heroui/tabs": "^2.2.11",
     "@next/font": "^14.2.14",
     "@nextui-org/accordion": "^2.0.40",
     "@nextui-org/pagination": "^2.0.36",

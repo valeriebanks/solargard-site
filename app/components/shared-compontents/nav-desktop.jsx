@@ -7,7 +7,7 @@ import VehicleFlyoutMenu from "./vehicle-flyout-menu";
 export default function NavDesktop() {
   return (
     <div>
-      <div className="bg-white text-white absolute z-20 xxl:w-9/12  xl:w-10/12 lg:w-11/12 xs:w-10/12 mx-auto h-14 left-1/2 top-8 transform -translate-x-1/2 -translate-y-1/2 mt-6 rounded-2xl flex items-center xl:flex lg:flex md:hidden sm:hidden xs:hidden">
+      <div className="bg-white text-white absolute z-20 w-full mx-auto h-14 left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2 mt-6 flex items-center xl:flex lg:flex md:hidden sm:hidden xs:hidden">
         <div className="flex w-full px-6 mx-auto items-center justify-between antialiased">
           <div className="flex items-center">
             <div className="hidden lg:block">

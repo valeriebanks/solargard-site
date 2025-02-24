@@ -96,10 +96,10 @@ export default function Testimonials() {
               <div className="my-swiper">
                 {reviews.map((review) => (
                   <SwiperSlide key={review.id}>
-                    <div className="lg:mt-8 md:mt-8 sm:mt-6">
+                    <div className="lg:mt-8 md:mt-8 sm:mt-6 bg-white p-12 h-[280px] rounded-lg">
                       <div>
                         <div className="">
-                          <p className="text-secondary font-medium lg:text-base md:text-lg sm:text-sm pr-8">
+                          <p className="text-secondary font-medium lg:text-sm md:text-sm sm:text-sm pr-8 antialiased">
                             {review.comment}
                           </p>
                         </div>

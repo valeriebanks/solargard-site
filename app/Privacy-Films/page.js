@@ -137,14 +137,14 @@ export default function PrivacyFilmsPage() {
       </div>
       <div className="bg-grey lg:py-40 antialiased">
         <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto">
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-flow-row gap-12">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-flow-row gap-8">
             {FilmQualitiesData.map((qualities) => (
               <div className="bg-white rounded-lg p-4 pb-16" key={qualities.id}>
                 <div>
                   <Image
                     src={qualities.image}
                     alt="Solar Gard Privacy Films"
-                    className="rounded-md"
+                    className="rounded-md h-[300px]"
                     style={{
                       width: "100%",
                       objectFit: "cover",
@@ -153,33 +153,33 @@ export default function PrivacyFilmsPage() {
                 </div>
                 <div>
                   <div className="lg:pl-6 lg:pr-6">
-                    <h3 className="lg:text-3xl md:text-2xl sm:text-3xl font-bold text-secondary mt-6">
+                    <h3 className="lg:text-2xl md:text-2xl sm:text-3xl font-bold text-secondary mt-6">
                       {qualities.filmType}
                     </h3>
                     <h4 className="text-base text-textGray font-medium">
                       {qualities.subtitle}
                     </h4>
                     <div className="border-b-2 border-gray-300 pb-4">
-                      <h5 className="lg:text-xl font-semibold text-secondary mt-4">
+                      <h5 className="lg:text-lg font-semibold text-secondary mt-4">
                         Effectiveness
                       </h5>
-                      <p className="lg:text-base md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
+                      <p className="lg:text-sm md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
                         {qualities.effectiveness}
                       </p>
                     </div>
                     <div className="border-b-2 border-gray-300 pb-4">
-                      <h5 className="lg:text-xl font-semibold text-secondary mt-4">
+                      <h5 className="lg:text-lg font-semibold text-secondary mt-4">
                         Benefits
                       </h5>
-                      <p className="lg:text-base md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
+                      <p className="lg:text-sm md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
                         {qualities.benefits}
                       </p>
                     </div>
                     <div className="border-b-2 border-gray-300 pb-4">
-                      <h5 className="lg:text-xl font-semibold text-secondary mt-4">
+                      <h5 className="lg:text-lg font-semibold text-secondary mt-4">
                         Consideration
                       </h5>
-                      <p className="lg:text-base md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
+                      <p className="lg:text-sm md:text-base sm:text-sm font-medium text-textLightGray pt-0.5">
                         {qualities.consideration}
                       </p>
                     </div>
@@ -191,7 +191,7 @@ export default function PrivacyFilmsPage() {
         </div>
       </div>
       <div className="bg-grey">
-        <div className="xxl:w-8/12 xl:w-9/12 lg:w-11/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-40">
+        <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto lg:py-40">
           <div className="flex lg:flex-row sm:flex-col gap-16">
             <div className="basis-4/12">
               <h3 className="lg:text-4xl md:text-3xl sm:text-3xl font-bold mt-[20%]">

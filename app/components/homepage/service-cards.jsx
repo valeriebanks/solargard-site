@@ -166,11 +166,11 @@ export default function ServiceCardGrid() {
 
   return (
     <div className="w-full bg-grey">
-      <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-32 xl:py-28 lg:py-36 mx-auto">
+      <div className="xxl:w-9/12 xl:w-10/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-32 xl:py-28 lg:py-36 mx-auto">
         <div>
-          <h2 className="mb-4 text-4xl font-bold text-secondary">
+          {/* <h2 className="mb-4 text-4xl font-bold text-secondary">
             Our Services
-          </h2>
+          </h2> */}
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 mx-auto lg:gap-4 md:gap-4 sm:gap-2 lg:gap-y-8 md:gap-y-4 sm:gap-y-4  text-secondary">
           {CardData.map((data, index) => (
@@ -200,7 +200,7 @@ export default function ServiceCardGrid() {
                 </div>
               </div>
               <div className="antialiased">
-                <div className="mt-2 lg:text-xl md:text-lg sm:text-base font-semibold">
+                <div className="mt-2 lg:text-lg md:text-lg sm:text-base font-semibold">
                   {data.title}
                 </div>
                 <div className="lg:text-sm md:text-sm sm:text-xs text-gray-500 font-medium">

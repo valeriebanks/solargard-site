@@ -92,11 +92,11 @@ export default function CompanyServices() {
         <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto">
           <div className="flex flex-row lg:gap-16">
             <div className="w-9/12 sm:w-full">
-              <h1 className="text-secondary font-bold lg:text-5xl md:text-3xl sm:text-2xl mb-4">
+              <h1 className="text-secondary font-bold lg:text-5xl md:text-3xl sm:text-2xl mb-4 lg:w-[80%]">
                 Your Experts in Window Films, Vinyl Wraps and Vehicle
-                Customisation
+                Customisations
               </h1>
-              <h2 className="text-textGray font-medium lg:text-xl md:text-lg sm:text-sm">
+              <h2 className="text-textGray font-medium lg:text-lg md:text-lg sm:text-sm">
                 At Solar Gard Solutions Ireland, we specialise in delivering
                 cutting-edge solutions for windows, interiors, and vehicles.
                 Whether you&apos;re enhancing comfort, upgrading aesthetics,
@@ -108,7 +108,10 @@ export default function CompanyServices() {
           <div className="w-full lg:mt-16 md:mt-8 sm:mt-6">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-4 md:gap-4 sm:gap-4 antialiased">
               {serviceListData.map((serviceitem) => (
-                <div key={serviceitem.id} className="bg-white p-6 rounded-md">
+                <div
+                  key={serviceitem.id}
+                  className="bg-white hover:border-2 p-6 rounded-md"
+                >
                   <div className="flex items-center">
                     <span>{serviceitem.icon && <serviceitem.icon />}</span>
                     <h3 className="text-secondary lg:text-xl md:text-xl sm:text-xl font-bold pl-4">
@@ -131,8 +134,8 @@ export default function CompanyServices() {
                 </div>
               ))}
             </div>
-            <div className="lg:mt-16 md:mt-8 sm:mt-6">
-              <h4 className="font-medium text-textGray lg:text-4xl md:text-2xl sm:text-sm">
+            <div className="lg:mt-8 md:mt-8 sm:mt-6">
+              <h4 className="font-medium text-textGray lg:text-3xl md:text-2xl sm:text-sm">
                 We&apos;re committed to helping you redefine your space—whether
                 it&apos;s your home, office, or vehicle—with solutions that
                 blend practicality, style, and sustainability.
