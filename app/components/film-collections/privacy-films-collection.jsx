@@ -8,7 +8,7 @@ import Image from "next/image";
 import { Select, SelectItem } from "@nextui-org/select";
 import { Pagination } from "@nextui-org/pagination";
 
-const categories = ["All", "Solar Films", "Frosted Films"];
+const categories = ["All", "Tinted Films", "Frosted Films"];
 
 const PrivacyFilmsComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -69,12 +69,12 @@ const PrivacyFilmsComponent = () => {
   };
 
   const getSpecPageRoute = (product) => {
-    console.log(
-      "Routing product:",
-      product.name,
-      "Category:",
-      product.category
-    );
+    // console.log(
+    //   "Routing product:",
+    //   product.name,
+    //   "Category:",
+    //   product.category
+    // );
 
     if (product.category === "Frosted Films") {
       return `/manifestations-graphics-spec-page/${encodeURIComponent(

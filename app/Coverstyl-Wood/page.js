@@ -4,59 +4,59 @@ import { WoodData } from "../Data-Sheets/Wood-Data";
 import { Pagination } from "@nextui-org/pagination";
 import { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
-import { Download } from "lucide-react"; // Import Lucide icon
+import { Download } from "lucide-react";
+import { Spinner } from "@heroui/spinner"; // Import HeroUI Spinner
 
 export default function WoodMaterials() {
   const itemsPerPage = 16;
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(WoodData[0]?.materials?.length / itemsPerPage);
+  const [loadingImages, setLoadingImages] = useState(new Set());
+
+  useEffect(() => {
+    // Initialize loading state for images on mount/page change
+    const initialLoadingSet = new Set();
+    WoodData[0]?.materials
+      ?.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+      .forEach((material) => initialLoadingSet.add(material.code));
+    setLoadingImages(initialLoadingSet);
+  }, [currentPage]);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top when page changes
   };
 
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentMaterials = WoodData[0]?.materials?.slice(
-    startIndex,
-    startIndex + itemsPerPage
-  );
-
-  // Ref for GSAP animation
   const containerRef = useRef(null);
 
   useEffect(() => {
     if (containerRef.current) {
       gsap.fromTo(
         containerRef.current.children,
-        {
-          opacity: 0,
-          y: 20, // Move up slightly
-        },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.6,
-          stagger: 0.1, // Stagger animation for smooth effect
-          ease: "power2.out",
-        }
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" }
       );
     }
-  }, [currentMaterials]); // Trigger animation on page change
+  }, [currentPage]);
 
-  // Function to properly download the image
+  const handleImageLoad = (code) => {
+    setLoadingImages((prev) => {
+      const newSet = new Set(prev);
+      newSet.delete(code);
+      return newSet;
+    });
+  };
+
   const downloadTexture = async (imageUrl, fileName) => {
     try {
       const response = await fetch(imageUrl);
       const blob = await response.blob();
       const url = URL.createObjectURL(blob);
-
       const link = document.createElement("a");
       link.href = url;
       link.download = fileName;
       document.body.appendChild(link);
       link.click();
-
-      // Cleanup
       document.body.removeChild(link);
       URL.revokeObjectURL(url);
     } catch (error) {
@@ -72,46 +72,57 @@ export default function WoodMaterials() {
             ref={containerRef}
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
           >
-            {currentMaterials?.map((material) => (
-              <div key={material.code} className="flex flex-col">
-                <div className="relative w-full h-[300px]">
-                  <Image
-                    src={material.image}
-                    alt={material.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg rounded-tr-xl"
-                  />
-                </div>
-                <div className="mt-2 gap-2">
-                  <div className="flex justify-between items-center antialiased">
-                    <div>
-                      <h6 className="text-center text-secondary text-sm font-medium">
-                        {material.name}
-                      </h6>
-                    </div>
-                    <div className="flex">
+            {WoodData[0]?.materials
+              ?.slice(
+                (currentPage - 1) * itemsPerPage,
+                currentPage * itemsPerPage
+              )
+              .map((material) => (
+                <div key={material.code} className="flex flex-col">
+                  <div className="relative w-full h-[300px] flex items-center justify-center bg-gray-200 rounded-tr-xl rounded-lg">
+                    {loadingImages.has(material.code) && (
+                      <Spinner className="absolute" />
+                    )}
+                    <Image
+                      src={material.image}
+                      alt={material.name}
+                      layout="fill"
+                      objectFit="cover"
+                      className={`rounded-lg rounded-tr-xl ${
+                        loadingImages.has(material.code) ? "hidden" : "block"
+                      }`}
+                      onLoad={() => handleImageLoad(material.code)}
+                    />
+                  </div>
+                  <div className="mt-2 gap-2">
+                    <div className="flex justify-between items-center antialiased">
                       <div>
-                        <span className="text-xs text-textGray font-semibold pr-2">
-                          {material.code}
-                        </span>
+                        <h6 className="text-center text-secondary text-sm font-medium">
+                          {material.name}
+                        </h6>
                       </div>
-                      <button
-                        onClick={() =>
-                          downloadTexture(
-                            material.image,
-                            `${material.name}.jpg`
-                          )
-                        }
-                        className="text-gray-500 hover:text-black transition"
-                      >
-                        <DownloadIcon size={20} />
-                      </button>
+                      <div className="flex">
+                        <div>
+                          <span className="text-xs text-textGray font-semibold pr-2">
+                            {material.code}
+                          </span>
+                        </div>
+                        <button
+                          onClick={() =>
+                            downloadTexture(
+                              material.image,
+                              `${material.name}.jpg`
+                            )
+                          }
+                          className="text-gray-500 hover:text-black transition"
+                        >
+                          <DownloadIcon size={20} />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
           <div className="mt-8 flex justify-center">
             <Pagination

@@ -3,7 +3,7 @@ export const PrivacyFilmsData = [
     id: "01",
     name: "Silver 80 C",
     slug: "silver-80-c",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-01.jpg",
     EnergyRejectedValue: "80",
@@ -42,7 +42,7 @@ export const PrivacyFilmsData = [
     id: "02",
     name: "Steel 75 C",
     slug: "steel-75-c",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-07.jpg",
     EnergyRejectedValue: "61",
@@ -81,7 +81,7 @@ export const PrivacyFilmsData = [
     id: "03",
     name: "Silver 80 C",
     slug: "silver-80-c",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-01.jpg",
     EnergyRejectedValue: "80",
@@ -120,7 +120,7 @@ export const PrivacyFilmsData = [
     id: "04",
     name: "Vista 90 C",
     slug: "vista-90-c",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-01.jpg",
     EnergyRejectedValue: "76",
@@ -159,7 +159,7 @@ export const PrivacyFilmsData = [
     id: "05",
     name: "Titane 275 XC",
     slug: "titane-275-xc",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-01.jpg",
     EnergyRejectedValue: "69",
@@ -198,7 +198,7 @@ export const PrivacyFilmsData = [
     id: "07",
     name: "Chrome 285 XC",
     slug: "chrome-285-xc",
-    category: "Solar Films",
+    category: "Tinted Films",
     image:
       "/images/solar-films-imgs/solar-films-tumbnaills/solar-film-thumbnail-01.jpg",
     EnergyRejectedValue: "84",

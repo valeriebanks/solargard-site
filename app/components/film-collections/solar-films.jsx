@@ -95,7 +95,7 @@ const SolarFilmsData = () => {
   };
 
   return (
-    <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto antialiased">
+    <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 lg:py-24 md:py-20 sm:py-14 mx-auto antialiased">
       <div className="lg:px-4 lg:py-16 md:px-4 md:py-12 sm:py-2">
         <div className="flex flex-row">
           <div className="basis-3/4">
@@ -156,7 +156,6 @@ const SolarFilmsData = () => {
               </button>
             ))}
           </div>
-
           {/* Mobile Listbox for Category Selection */}
           <div className="w-full lg:hidden">
             <Select
@@ -181,7 +180,6 @@ const SolarFilmsData = () => {
             </Select>
           </div>
         </div>
-
         {/* Product Cards */}
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 lg:gap-6 md:gap-6 sm:gap-4">
           {currentProducts.map((product) => (
@@ -249,7 +247,6 @@ const SolarFilmsData = () => {
             </Link>
           ))}
         </div>
-
         {/* Pagination */}
         <div className="mt-16 flex justify-center">
           <Pagination

@@ -83,7 +83,7 @@ const SafetyFilmsComponent = () => {
       <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 py-12 mx-auto antialiased">
         <div>
           <div className="xxl:w-9/12 lg:w-10/12 md:w-11/12 lg:mb-14 md:mb-8 sm:mb-6">
-            <h2 className="xxl:text-6xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
+            <h2 className="xxl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-2xl lg:mb-4 md:mt-8 sm:mt-12 font-bold text-secondary">
               Discover Our Range of High-Performance Safety Films
             </h2>
             <p className="font-medium text-textGray lg:text-xl sm:mt-2">

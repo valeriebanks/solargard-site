@@ -103,7 +103,7 @@ export default function SolarFilms() {
           <h3 className="text-center font-semibold lg:text-3xl lg:mb-4">
             FACTS AND STATISTICS ABOUT SOLAR FILMS
           </h3>
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid lg:grid-cols-3 gap-6">
             {FactsStatsData.map((fact) => (
               <div className="bg-white rounded-lg p-8">
                 <h4 className="lg:text-8xl lg:mt-16 text-secondary font-bold">
@@ -121,6 +121,18 @@ export default function SolarFilms() {
           </div>
         </div>
       </div>
+      <div className="bg-grey w-full xxl:px-0 xxl:py-44 xl:py-36 lg:py-16 md:py-16 sm:py-12">
+        <div className="xxl:w-8/12 xl:w-10/12 lg:w-10/12 md:w-11/12 sm:w-11/12 mx-auto antialiased">
+          <h1 className="font-medium lg:text-2xl">
+            Discover the power of Solar Gard Solutions, Ireland's premium solar
+            films, designed to enhance comfort, reduce energy costs, and protect
+            your interiors. Our advanced solar films provide a range of
+            benefits, including heat reduction, anti glare control, and enhanced
+            privacy, making them the ideal solution for residential, commercial,
+            and industrial applications.
+          </h1>
+        </div>
+      </div>
       <div>
         <div className="bg-grey w-full xxl:pb-60 sm:pb-28 section-spacing-top-btm antialiased">
           <div className="relative xxl:w-8/12 xl:w-10/12 lg:w-10/12 md:w-10/12 sm:w-11/12 rounded-xl mx-auto lg:h-[60vh] md:h-[70vh] sm:h-[60vh] overflow-hidden">
@@ -135,10 +147,10 @@ export default function SolarFilms() {
               className="object-top"
             />
             <div className="absolute bottom-0 lg:pb-28 lg:pl-20  md:pl-8 sm:pl-4 sm:pb-14 text-white">
-              <h4 className="lg:text-6xl md:text-5xl sm:text-4xl font-bold mb-2">
+              <h4 className="lg:text-5xl md:text-5xl sm:text-4xl font-bold mb-2">
                 Environmental Impact
               </h4>
-              <p className="font-medium lg:text-3xl md:text-2xl sm:text-xl lg:w-[60%] md:w-[60%] sm:w-[90%]">
+              <p className="font-medium lg:text-2xl md:text-2xl sm:text-xl lg:w-[60%] md:w-[60%] sm:w-[90%]">
                 By improving energy efficiency, Solar Films can contribute to a
                 reduction in a building&apos;s carbon footprint by 10-15% over
                 time.
