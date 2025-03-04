@@ -1,3 +1,5 @@
 {
-  "/Coverstyl-Wood/page": "app/Coverstyl-Wood/page.js"
+  "/page": "app/page.js",
+  "/Coverstyl-concrete/page": "app/Coverstyl-concrete/page.js",
+  "/Coverstyl-steel/page": "app/Coverstyl-steel/page.js"
 }

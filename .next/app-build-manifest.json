@@ -1,15 +1,37 @@
 {
   "pages": {
-    "/Coverstyl-Wood/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Coverstyl-Wood/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/CoverStyl/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/CoverStyl/page.css",
+      "static/chunks/app/CoverStyl/page.js"
+    ],
+    "/Coverstyl-Wood/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Coverstyl-Wood/page.js"
+    ],
+    "/Coverstyl-concrete/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Coverstyl-concrete/page.js"
+    ],
+    "/Coverstyl-steel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Coverstyl-steel/page.js"
     ]
   }
 }
