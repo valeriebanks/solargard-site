@@ -2454,6 +2454,10 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
 .\!pb-0 {
   padding-bottom: 0px !important;
 }
@@ -2543,6 +2547,9 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
+}
+.pt-32 {
+  padding-top: 8rem;
 }
 .text-left {
   text-align: left;
@@ -5753,6 +5760,10 @@ b {
     margin-top: 2rem;
   }
 
+  .lg\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -6027,6 +6038,11 @@ b {
     padding-bottom: 15%;
   }
 
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .lg\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -6226,6 +6242,21 @@ b {
     padding-bottom: 11rem;
   }
 
+  .xl\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -6330,6 +6361,16 @@ b {
     padding-bottom: 14rem;
   }
 
+  .xxl\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .xxl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .xxl\:pb-60 {
     padding-bottom: 15rem;
   }
@@ -6377,6 +6418,11 @@ b {
   .xxl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xxl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 

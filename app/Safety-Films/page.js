@@ -48,7 +48,7 @@ export default function SafetyFilmsPage() {
   return (
     <div>
       <div>
-        <div className="flex flex-col w-full">
+        {/* <div className="flex flex-col w-full">
           <div className="relative">
             <Image
               src={SafetyHeroImg}
@@ -70,10 +70,10 @@ export default function SafetyFilmsPage() {
               </h3>
             </div>
           </div>
-        </div>
-        <div className="bg-grey">
-          <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-12 mx-auto">
-            <h1 className="text-secondary font-medium xxl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-lg">
+        </div> */}
+        {/* <div className="bg-grey">
+          <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-16 xl:py-8 lg:py-8 md:py-16 sm:py-12 mx-auto">
+            <h1 className="text-secondary font-medium xxl:text-2xl xl:text-2xl lg:text-xl md:text-2xl sm:text-lg antialiased">
               Ensure the safety and security of your home, office, or commercial
               space with Solar Gard Solutions, Ireland’s premium safety films.
               Our films are designed to strengthen glass and protect against
@@ -83,7 +83,7 @@ export default function SafetyFilmsPage() {
               aesthetics.
             </h1>
           </div>
-        </div>
+        </div> */}
         <div>
           <SafetyFilmsComponent />
         </div>
@@ -103,7 +103,7 @@ export default function SafetyFilmsPage() {
                   }}
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <h1 className="text-white text-center xxl:text-8xl xl:text-8xl lg:text-7xl md:text-3xl sm:text-5xl font-bold">
+                  <h1 className="text-white text-center xxl:text-7xl xl:text-7xl lg:text-6xl md:text-3xl sm:text-5xl font-bold">
                     Benefits of <br /> Safety Films
                   </h1>
                 </div>

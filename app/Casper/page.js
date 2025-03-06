@@ -9,26 +9,6 @@ import Footer from "../components/shared-compontents/Footer";
 export default function CasperPage() {
   return (
     <div>
-      {/* <div className="flex flex-col w-full">
-        <div className="relative">
-          <Image
-            src={CasperHeroImg}
-            alt="Solar Gard Vehicle Wrapping"
-            sizes="100vw"
-            placeholder="blur"
-            style={{
-              width: "100%",
-              objectFit: "cover",
-            }}
-            className="h-[70vh] bg-bottom"
-          />
-          <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2">
-            <h2 className="text-white text-center xxl:text-8xl xl:text-8xl lg:text-7xl md:text-3xl sm:text-5xl font-bold">
-              Casper&#8482; Cloaking
-            </h2>
-          </div>
-        </div>
-      </div> */}
       <div className="bg-grey antialiased">
         <div className="bg-grey xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-12 mx-auto">
           <video
