@@ -9,7 +9,7 @@ import Footer from "../components/shared-compontents/Footer";
 export default function CasperPage() {
   return (
     <div>
-      <div className="flex flex-col w-full">
+      {/* <div className="flex flex-col w-full">
         <div className="relative">
           <Image
             src={CasperHeroImg}
@@ -28,21 +28,8 @@ export default function CasperPage() {
             </h2>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="bg-grey antialiased">
-        <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-40 xl:py-32 lg:py-24 md:py-24 sm:py-12 mx-auto">
-          <div>
-            <h1 className="text-secondary font-medium xxl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-lg">
-              In today&rsquo;s modern workplaces, data security and privacy are
-              essential. Casper Cloaking Film is an innovative architectural
-              film designed to obscure digital screens from outside view while
-              keeping the glass clear and open. Perfect for meeting rooms,
-              offices, and collaborative environments, it ensures sensitive
-              information remains protected while promoting transparency and
-              collaboration.
-            </h1>
-          </div>
-        </div>
         <div className="bg-grey xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-12 mx-auto">
           <video
             className="w-full aspect-video rounded-lg"
@@ -124,6 +111,21 @@ export default function CasperPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full bg-grey">
+        <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-40 xl:py-32 lg:py-24 md:py-24 sm:py-12 mx-auto">
+          <div>
+            <h1 className="text-secondary font-medium xxl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-lg">
+              In today&rsquo;s modern workplaces, data security and privacy are
+              essential. Casper Cloaking Film is an innovative architectural
+              film designed to obscure digital screens from outside view while
+              keeping the glass clear and open. Perfect for meeting rooms,
+              offices, and collaborative environments, it ensures sensitive
+              information remains protected while promoting transparency and
+              collaboration.
+            </h1>
           </div>
         </div>
       </div>

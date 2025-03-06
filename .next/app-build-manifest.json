@@ -12,26 +12,35 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/CoverStyl/page": [
+    "/Solar-Films/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/CoverStyl/page.css",
-      "static/chunks/app/CoverStyl/page.js"
+      "static/css/app/Solar-Films/page.css",
+      "static/chunks/app/Solar-Films/page.js"
     ],
-    "/Coverstyl-Wood/page": [
+    "/Privacy-Films/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Coverstyl-Wood/page.js"
+      "static/css/app/Privacy-Films/page.css",
+      "static/chunks/app/Privacy-Films/page.js"
     ],
-    "/Coverstyl-concrete/page": [
+    "/Safety-Films/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Coverstyl-concrete/page.js"
+      "static/css/app/Safety-Films/page.css",
+      "static/chunks/app/Safety-Films/page.js"
     ],
-    "/Coverstyl-steel/page": [
+    "/Switchable-Glass/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Coverstyl-steel/page.js"
+      "static/css/app/Switchable-Glass/page.css",
+      "static/chunks/app/Switchable-Glass/page.js"
+    ],
+    "/Casper/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/Casper/page.css",
+      "static/chunks/app/Casper/page.js"
     ]
   }
 }

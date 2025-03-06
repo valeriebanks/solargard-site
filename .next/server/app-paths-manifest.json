@@ -1,5 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/Coverstyl-concrete/page": "app/Coverstyl-concrete/page.js",
-  "/Coverstyl-steel/page": "app/Coverstyl-steel/page.js"
+  "/Solar-Films/page": "app/Solar-Films/page.js",
+  "/Privacy-Films/page": "app/Privacy-Films/page.js",
+  "/Safety-Films/page": "app/Safety-Films/page.js",
+  "/Switchable-Glass/page": "app/Switchable-Glass/page.js",
+  "/Casper/page": "app/Casper/page.js"
 }
