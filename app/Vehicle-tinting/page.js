@@ -187,30 +187,7 @@ export default function VehicleTinting() {
   }, []);
   return (
     <div>
-      <div className="flex flex-col w-full">
-        <div className="relative">
-          <Image
-            src={HeroImg}
-            alt="Solar Gard Solar Films"
-            sizes="100vw"
-            placeholder="blur"
-            style={{
-              width: "100%",
-              objectFit: "cover",
-            }}
-            className="h-[70vh] object-top"
-          />
-          <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2">
-            {/* <h2 className="text-white text-center xxl:text-8xl xl:text-8xl lg:text-7xl md:text-3xl sm:text-5xl font-bold">
-              Vehicle Tinting
-            </h2> */}
-            {/* <h3 className="text-white text-center font-semibold xxl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-xl">
-              Security - Shatter Resistance
-            </h3> */}
-          </div>
-        </div>
-      </div>
-      <div className="bg-grey antialiased">
+      {/* <div className="bg-grey antialiased">
         <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-12 mx-auto">
           <h1 className="text-secondary font-medium xxl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-lg">
             At Solar Gard Ireland, our expert vehicle tinting services combine
@@ -221,7 +198,7 @@ export default function VehicleTinting() {
             enhance your driving experience.
           </h1>
         </div>
-      </div>
+      </div> */}
       <div className="bg-grey w-full">
         <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 sm:pt-32 mx-auto">
           <div>
@@ -316,21 +293,26 @@ export default function VehicleTinting() {
                       <div>{tier.coupe.half}</div>
                       <div>€{tier.coupe.halfprice}</div>
                     </div>
+                    <div className="mt-8 text-center">
+                      <button className="py-2 px-8 text-center text-lg font-medium outline outline-offset-0 outline-gray-400 rounded-lg">
+                        Book Your Slot
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
             </div>
             <div className="lg:w-8/12 md:w-7/12 sm:w-10/12 mx-auto mt-8">
-              <h4 className="font-medium text-center text-secondary lg:text-2xl">
+              <h4 className="font-medium text-center text-secondary lg:text-xl">
                 Simply call us to book. Provide us with your vehicle&apos;s make
                 and model, and let us know which package you&apos;re interested
                 in.
               </h4>
-              <div className="flex items-center  bg-black lg:w-72 md:w-64 sm:w-60 py-2 px-2 rounded-xl mx-auto mt-6 antialiased">
+              <div className="flex items-center  bg-black lg:w-64 md:w-64 sm:w-60 py-2 px-2 rounded-xl mx-auto mt-6 antialiased">
                 <span className="rounded-full lg:w-11 lg:h-11 md:w-11 md:h-11 sm:w-9 sm:h-9 flex justify-center items-center bg-white">
                   <PhoneIcon />
                 </span>
-                <h6 className="text-white font-semibold lg:text-3xl md:text-2xl sm:text-xl pl-4 antialiased">
+                <h6 className="text-white font-semibold lg:text-2xl md:text-2xl sm:text-xl pl-4 antialiased">
                   021 454 5606
                 </h6>
               </div>
@@ -442,7 +424,7 @@ export default function VehicleTinting() {
                       }}
                     />
                   </div>
-                  <h3 className="lg:text-2xl md:text-xl sm:text-2xl font-bold mt-8">
+                  <h3 className="lg:text-xl md:text-xl sm:text-2xl font-semibold mt-8">
                     {veheicleData.title}
                   </h3>
                   <p className="mt-4 text-base">{veheicleData.description}</p>

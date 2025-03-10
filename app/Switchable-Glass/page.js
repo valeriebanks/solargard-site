@@ -7,32 +7,12 @@ import ContactUs from "../components/shared-compontents/Contact-Us";
 export default function SwitchableGlassPage() {
   return (
     <div>
-      <div className="flex flex-col w-full">
-        <div className="relative">
-          <Image
-            src={HeroImg}
-            alt="Solar Gard Solar Films"
-            sizes="100vw"
-            placeholder="blur"
-            style={{
-              width: "100%",
-              objectFit: "cover",
-            }}
-            className="h-[75vh] bg-bottom"
-          />
-          <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2">
-            {/* <h2 className="text-white text-center xxl:text-8xl xl:text-8xl lg:text-7xl md:text-3xl sm:text-5xl font-bold">
-                   Vehicle Tinting
-                 </h2> */}
-            {/* <h3 className="text-white text-center font-semibold xxl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-xl">
-                   Security - Shatter Resistance
-                 </h3> */}
-          </div>
+      <div className="bg-grey pt-24 mt-8">
+        <div className="lg:w-10/12 h-[600px] mx-auto bg-white text-center rounded-lg">
+          Video
         </div>
-      </div>
-      <div className="bg-grey antialiased">
-        <div className="xxl:w-8/12 xl:w-9/12 lg:w-10/12 md:w-11/12 sm:w-11/12 xxl:py-56 xl:py-40 lg:py-36 md:py-24 sm:py-12 mx-auto">
-          <h1 className="text-secondary font-medium xxl:text-4xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg">
+        <div className="lg:w-10/12 mx-auto">
+          <h1 className="text-secondary font-medium lg:text-xl md:text-xl sm:text-lg mt-3">
             Switchable also known as smart glass or privacy glass, is an
             advanced glazing solution that allows you to control the
             transparency of your windows at the touch of a button. Whether you

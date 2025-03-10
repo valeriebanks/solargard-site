@@ -1,8 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/Vehicle-tinting/page": "app/Vehicle-tinting/page.js",
   "/page": "app/page.js",
-  "/Manifestations-Graphics/page": "app/Manifestations-Graphics/page.js",
-  "/Safety-Films/page": "app/Safety-Films/page.js",
-  "/Switchable-Glass/page": "app/Switchable-Glass/page.js"
+  "/Vehicle-Wrapping/page": "app/Vehicle-Wrapping/page.js",
+  "/Casper/page": "app/Casper/page.js",
+  "/Switchable-Glass/page": "app/Switchable-Glass/page.js",
+  "/Vehicle-tinting/page": "app/Vehicle-tinting/page.js"
 }
