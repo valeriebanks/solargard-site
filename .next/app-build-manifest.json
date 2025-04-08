@@ -12,28 +12,38 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/Vehicle-tinting/page": [
+    "/CoverStyl/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Vehicle-tinting/page.css",
-      "static/chunks/app/Vehicle-tinting/page.js"
+      "static/css/app/CoverStyl/page.css",
+      "static/chunks/app/CoverStyl/page.js"
     ],
-    "/Vehicle-Wrapping/page": [
+    "/Solar-Films/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Vehicle-Wrapping/page.js"
+      "static/css/app/Solar-Films/page.css",
+      "static/chunks/app/Solar-Films/page.js"
     ],
-    "/Casper/page": [
+    "/manifestations-graphics/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Casper/page.css",
-      "static/chunks/app/Casper/page.js"
+      "static/css/app/manifestations-graphics/page.css",
+      "static/chunks/app/manifestations-graphics/page.js"
     ],
-    "/Switchable-Glass/page": [
+    "/manifestations-graphics/[categorySlug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/Switchable-Glass/page.css",
-      "static/chunks/app/Switchable-Glass/page.js"
+      "static/chunks/app/manifestations-graphics/[categorySlug]/page.js"
+    ],
+    "/Solar-spec-page/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Solar-spec-page/[slug]/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

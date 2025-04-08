@@ -7,7 +7,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_White.pdf",
     FilmDescription:
       "Mat White privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-white.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742399014/Mat-white_zzh5bg.jpg",
     warranty: "10 years",
     fireRating: "M1",
     storage: "3 years",
@@ -47,7 +48,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Frost.pdf",
     FilmDescription:
       "Mat Frosted privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. With disposable plastic liner or silicone paper liner for digital cutting.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742401502/Mat-Frost_uebx58.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -288,7 +290,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Opalescent/Mat_Acid.pdf",
     FilmDescription:
       "Mat Acid privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. Printable on any type of machine.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743497472/Mat-Acid_crqzov.png",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -329,7 +332,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Opalescent/Mat_Acid_Bubble_Free.pdf",
     FilmDescription:
       "Mat Acid privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through. Printable on any type of machine.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-frosted.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743498128/Mat-Acid-Bubble-Free_pej8ul.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -369,7 +373,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Bronze.pdf",
     FilmDescription:
       "Mat Bronze privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film still allows most natural light to pass through creating subtle ambient lighting conditions.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-bronze.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741953576/Mat-bronze_zsipyu.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -409,7 +414,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Grey.pdf",
     FilmDescription:
       "Mat Grey privacy films are designed to provide protection against the scrutiny of prying eyes. Whilst completely opalescent, the film filters out most natural light creating subtle ambient lighting conditions.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-grey.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741953844/Mat-grey_ye5w5s.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -531,7 +537,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Pink.pdf",
     FilmDescription:
       "Applied to clear glass, the Mat Pink film bestows a mat pink tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-pink.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742374198/mat-pink_sxd8hq.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -571,7 +578,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Matt/Mat_Blue.pdf",
     FilmDescription:
       "Applied to clear glass, the Mat Blue film bestows a mat blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/mat-blue.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741953455/Mat-blue_ntrmiq.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -691,7 +699,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frost-Decreasing/Mystic.pdf",
     FilmDescription:
       "Featuring a graduated frosted aspect over 120 cm, the Mystic decorative film allows you to effectively customize your windows and glass partitions.",
-    image: "/images/manif-graphics-imgs/films-pics/mystic.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743501080/Mystic_a7e0e5.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -809,7 +818,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Sirius.pdf",
     FilmDescription:
       "The Sirius decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 18 mm frosted bands arranged horizontally and separated by 6 mm clear aspect bands.",
-    image: "/images/manif-graphics-imgs/films-pics/sirius.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741951808/Sirius_si2mev.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -848,7 +858,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Stratos.pdf",
     FilmDescription:
       "The Stratos decorative film allows you to effectively customize your windows and glass partitions. It features a pattern composed of 35 mm frosted bands arranged horizontally and separated by 10 mm clear aspect bands.",
-    image: "/images/manif-graphics-imgs/films-pics/sratos.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741952166/Stratos_xvy58v.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -926,7 +937,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Structur.pdf",
     FilmDescription:
       "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
-    image: "/images/manif-graphics-imgs/films-pics/structur.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741952413/Structur_gqmvwm.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -964,8 +976,9 @@ export const manifestData = [
     category: "Frost Lines",
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Lines/Strada.pdf",
     FilmDescription:
-      "The Structur decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
-    image: "/images/manif-graphics-imgs/films-pics/strada.jpg",
+      "The Strada decorative film allows you to effectively customize your windows and glass partitions. It is decorated with frosted bands of alternating width (35 mm and 5 mm), separated from each other by 5 mm clear aspect bands.",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741952019/Strada_tgstwv.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -1082,7 +1095,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Swing.pdf",
     FilmDescription:
       "The Swing decorative film allows you to effectively customize your windows and glass partitions. It is decorated with vertically aligned string-like frosted bands.",
-    image: "/images/manif-graphics-imgs/films-pics/swing.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741952490/Swing_ktexjp.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -1121,7 +1135,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Themes/Vitra.pdf",
     FilmDescription:
       "The self-adhesive Vitra film is decorated with a repeating polygonal pattern, providing a modern touch of elegance to your windows and glass partitions.",
-    image: "/images/manif-graphics-imgs/films-pics/vitra.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743500089/Vitra_fmpe5j.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -1594,7 +1609,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Floris.pdf",
     FilmDescription:
       "The Floris decorative film features a white floral design. Floris window films allow you to tastefully customize windows and partitions.",
-    image: "/images/manif-graphics-imgs/films-pics/floris.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743500746/Floris_yzf4m7.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -1792,7 +1808,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Frosted-Forms/Pixel.pdf",
     FilmDescription:
       "The Pixel decorative film, featuring a graduated pattern of squares, allows you to effectively customize your windows and glass partitions.",
-    image: "/images/manif-graphics-imgs/films-pics/pixel.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743760513/Pixel_lun6mt.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2288,7 +2305,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Geometric/Circuit.pdf",
     FilmDescription:
       "The Circuit decorative film is composed of a systematic repeating pattern that customises your windows and glass surfaces. The use of geometric shapes on your glazing or glass partitions is an excellent way to brighten up any space",
-    image: "/images/manif-graphics-imgs/films-pics/Circuit.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743499772/Circuit_mjn26p.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2320,7 +2338,7 @@ export const manifestData = [
   },
   {
     id: "60",
-    name: "Blue 40C",
+    name: "Blue 40 C",
     slug: "Blue-40-C",
     category: "Colour Transparent",
     PDFDownloadLink:
@@ -2368,7 +2386,8 @@ export const manifestData = [
   //     "/PDF/Manifestations-specs/Colour-Transparent/Blue_40C.pdf",
   //   FilmDescription:
   //     "Applied to clear glass, the transparent Blue Azure C film bestows a blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-  //   image: "/images/manif-graphics-imgs/films-pics/BleuAzurC.jpg",
+  //   image:
+  //     "https://res.cloudinary.com/solar-gard/image/upload/v1741952913/bleu-azur_vwiirp.jpg",
   //   warranty: "5 years",
   //   fireRating: "M1",
   //   storage: "3 years",
@@ -2409,7 +2428,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Colour-Transparent/Blue_Ocean_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Blue Ocean C film bestows a blue tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/BleuOceanC.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741953074/Bleu-Ocean-C_pgapxe.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2450,7 +2470,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Colour-Transparent/Yellow_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Yellow C film bestows a yellow hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/Yellow-C.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742386191/Yellow-C_z6r4lo.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2490,7 +2511,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Red_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Red C film bestows a red hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/RougeC.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742375884/Red-C_bnlrd4.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2571,7 +2593,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Colour-Transparent/Mint_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Mint C film bestows a green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/Mint-C.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742374451/Mint-C_fyqtik.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2652,7 +2675,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Colour-Transparent/Orange_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Orange C film bestows an orange hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/OrangeC.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742374624/Orange-C_auyjht.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2815,7 +2839,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Colour-Transparent/Turquoise_C.pdf",
     FilmDescription:
       "Applied to clear glass, the transparent Turquoise C film bestows a blue/green tint to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/TurquoiseC.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1742386115/Turquoise-C_euvgah.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -2937,7 +2962,8 @@ export const manifestData = [
       "/PDF/Manifestations-specs/Colour-Transparent/Chocolate_C.pdf",
     FilmDescription:
       "Applied to a clear glazing, the transparent Chocolate C film bestows a brown hue to the glass without diminishing its transparent properties. It is the perfect way to enliven any interior glazing (such as partitions, shower screens, etc.) with a touch of colour.",
-    image: "/images/manif-graphics-imgs/films-pics/ChocolatC.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1741953245/Chocolat-C_qzsafz.jpg",
     warranty: "5 years",
     fireRating: "M1",
     storage: "3 years",
@@ -3018,7 +3044,8 @@ export const manifestData = [
     PDFDownloadLink: "/PDF/Manifestations-specs/Blackout/White_Opaque.pdf",
     FilmDescription:
       "The White Opaque black out film provides comprehensive two-way privacy. Blocking almost all light penetration, this film provides an immediate and effective privacy solution, ideally suited for concealing stock, a storage area, etc.",
-    image: "/images/manif-graphics-imgs/films-pics/White-Opaque.jpg",
+    image:
+      "https://res.cloudinary.com/solar-gard/image/upload/v1743767356/Blackout_White_xake17.jpg",
     warranty: "10 years",
     fireRating: "M1",
     storage: "3 years",

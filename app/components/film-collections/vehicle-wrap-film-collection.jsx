@@ -21,7 +21,7 @@ export default function VehicleWrappingFilms() {
         {displayedItems.map((film, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center"
+            className="bg-white rounded-lg shadow-sm p-4 flex flex-col items-center"
           >
             <Image
               src={film.image}
@@ -39,10 +39,10 @@ export default function VehicleWrappingFilms() {
           </div>
         ))}
       </div>
-
       {/* HeroUI Pagination */}
       <div className="flex justify-center mt-6">
         <Pagination
+          color="secondary"
           total={totalPages}
           current={currentPage}
           onChange={setCurrentPage}

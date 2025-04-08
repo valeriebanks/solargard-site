@@ -1,7 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/Vehicle-Wrapping/page": "app/Vehicle-Wrapping/page.js",
-  "/Casper/page": "app/Casper/page.js",
-  "/Switchable-Glass/page": "app/Switchable-Glass/page.js",
-  "/Vehicle-tinting/page": "app/Vehicle-tinting/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/manifestations-graphics/[categorySlug]/page": "app/manifestations-graphics/[categorySlug]/page.js",
+  "/manifestations-graphics/page": "app/manifestations-graphics/page.js",
+  "/CoverStyl/page": "app/CoverStyl/page.js",
+  "/Solar-Films/page": "app/Solar-Films/page.js",
+  "/Solar-spec-page/[slug]/page": "app/Solar-spec-page/[slug]/page.js"
 }

@@ -99,12 +99,12 @@ export default function VehicleWrappingPage() {
       </div>
       <div className="bg-grey w-full">
         <div className="xxl:w-10/12 xl:w-10/12 lg:w-10/12 sm:w-10/12 py-40 mx-auto">
-          <div className="grid grid-cols-2 gap-6">
-            <div className="w-[620px] border-2 border-gray-500 rounded-md p-6">
-              <h5 className="lg:text-5xl text-secondary font-semibold">
+          <div className="grid grid-cols-2 gap-6 antialiased">
+            <div className="w-[620px] bg-black rounded-md p-6">
+              <h5 className="lg:text-5xl text-white font-semibold">
                 Enhance, Protect & Personalise Your Ride
               </h5>
-              <p className="text-lg text-textGray mt-6">
+              <p className="text-lg text-white mt-6">
                 Choose from a wide range of colours, textures, and finishes,
                 including matte, gloss, satin, carbon fiber, and metallic
               </p>

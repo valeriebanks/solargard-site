@@ -26,7 +26,7 @@ export default function NavDesktop() {
                 <li className="pl-4">
                   <VehicleFlyoutMenu />
                 </li>
-                <Link href="/Manifestations-Graphics">
+                <Link href="/manifestations-graphics">
                   <li className="pl-4 font-semibold lg:text-sm xl:text-base xxl:text-base nav:text-sm hover:text-HoverColor">
                     Manifestations & Graphics
                   </li>

@@ -1,8 +1,10 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
+import { ManifestationsAllData } from "@/app/Data-Sheets/Manifestations-all-category-data";
 import ManifGraphicsData from "../components/film-collections/manifestion-graphics-collection";
+import ManifestationsCollectionCardNav from "../components/film-collections/graphic-manifestations-collection-nav";
 import OurServiceCarousel from "../components/shared-compontents/our-services-carousel";
 import GraphicsManifestationsFAQs from "../components/FAQs/manifestations-graphics-faq";
 import ContactUs from "../components/shared-compontents/Contact-Us";
@@ -47,26 +49,45 @@ export default function ManifestationGraphicsPage() {
   }, []);
   return (
     <div>
-      <div className="flex flex-col w-full">
-        <div className="relative">
-          <Image
-            src={HeroImgTwo}
-            className="h-[70vh]"
-            alt="Solar Gard Solar Films"
-            sizes="100vw"
-            placeholder="blur"
-            style={{
-              width: "100%",
-              objectFit: "cover",
-            }}
-          />
-          <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2">
-            <h2 className="text-white text-center xxl:text-8xl xl:text-8xl lg:text-7xl md:text-3xl sm:text-5xl font-bold">
-              Manifestations & Graphics
-            </h2>
-            {/* <h3 className="text-white text-center font-semibold xxl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-xl">
-              Security - Shatter Resistance
-            </h3> */}
+      <div className="w-full bg-grey">
+        <div className="xxl:w-11/12 lg:w-10/12 mx-auto">
+          <div>
+            <div className="grid lg:grid-cols-5 gap-4 pt-28 antialiased">
+              {ManifestationsAllData.map((item) => (
+                <div
+                  key={item.slug}
+                  className="p-6 bg-white rounded-lg shadow-md"
+                >
+                  <div className="w-44 h-44 rounded-full overflow-hidden mx-auto">
+                    <Image
+                      src={item.CardFeaturedImage}
+                      width={500}
+                      height={500}
+                      alt={item.CollectionCategory}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h2 className="text-sm text-center font-semibold mt-4">
+                    {item.CollectionCategory}
+                  </h2>
+                  <p className="text-sm text-center mt-6 text-gray-500">
+                    References {item.NumRef}
+                  </p>
+                  <>
+                    <Link href={`/manifestations-graphics/${item.slug}`}>
+                      <div className="flex justify-center">
+                        <button className="mt-6 px-4 py-2 rounded-full border-2 border-zinc-300 text-secondary font-semibold text-xs hover:bg-slate-900 hover:text-white">
+                          View Collection
+                        </button>
+                      </div>
+                    </Link>
+                  </>
+                </div>
+              ))}
+              <div className="col-span-2 bg-white rounded-lg shadow-md p-6">
+                sss
+              </div>
+            </div>
           </div>
         </div>
       </div>
