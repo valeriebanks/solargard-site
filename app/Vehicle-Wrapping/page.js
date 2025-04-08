@@ -8,10 +8,10 @@ import HeroVehicleImg from "/public/images/vehicle-wrap-imgs/Hero-vehicle-wrap.p
 import PersonalWrapsImg from "/public/images/vehicle-wrap-imgs/personalcar.jpg";
 import VanWrapsImg from "/public/images/vehicle-wrap-imgs/commerical.jpg";
 
-import TrimImg from "/public/images/vehicle-wrap-imgs/trim.jpg";
+import TrimImg from "/public/images/vehicle-wrap-imgs/Trim.jpg";
 import RoofImg from "/public/images/vehicle-wrap-imgs/roof.jpg";
 import BonnetImg from "/public/images/vehicle-wrap-imgs/bonnet.jpg";
-import HighlightsImg from "/public/images/vehicle-wrap-imgs/highlights.jpg";
+import HighlightsImg from "/public/images/vehicle-wrap-imgs/Highlights.jpg";
 import WingMirrorImg from "/public/images/vehicle-wrap-imgs/wing-mirrors.jpg";
 import DeChromingImg from "/public/images/vehicle-wrap-imgs/de-chroming.jpg";
 
