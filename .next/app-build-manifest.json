@@ -24,17 +24,6 @@
       "static/css/app/Solar-Films/page.css",
       "static/chunks/app/Solar-Films/page.js"
     ],
-    "/manifestations-graphics/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/manifestations-graphics/page.css",
-      "static/chunks/app/manifestations-graphics/page.js"
-    ],
-    "/manifestations-graphics/[categorySlug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/manifestations-graphics/[categorySlug]/page.js"
-    ],
     "/Solar-spec-page/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
