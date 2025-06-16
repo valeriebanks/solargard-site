@@ -15,7 +15,8 @@ import KeyPointOne from "/public/images/manif-graphics-imgs/manifKeyPoint_01.jpg
 import KeyPointTwo from "/public/images/manif-graphics-imgs/manifKeyPoint_02.jpg";
 import KeyPointThree from "/public/images/manif-graphics-imgs/manifKeyPoint_03.jpg";
 import WhyChooseUs from "/public/images/manif-graphics-imgs/why-choose-us.jpg";
-
+// import CustomGraphicsImg from "/public/images/manif-graphics-imgs/Custom-graphics.png";
+import CustomGraphicsImg from "/public/images/manif-graphics-imgs/Circle-custom-manifestations.png";
 const KeyPoints = [
   {
     id: "01",
@@ -84,8 +85,20 @@ export default function ManifestationGraphicsPage() {
                   </>
                 </div>
               ))}
-              <div className="col-span-2 bg-white rounded-lg shadow-md p-6">
-                sss
+              <div className="col-span-2 bg-white rounded-lg shadow-md pt-6">
+                <div className="w-9/12 mx-auto">
+                  <Image
+                    src={CustomGraphicsImg}
+                    alt="Custom Graphics Solar Gard Ireland"
+                    sizes="100vw"
+                  />
+                </div>
+                <div>
+                  <h4 className="text-sm text-center font-semibold mt-5">
+                    Custom Manifestations Graphics
+                  </h4>
+                  <p className="text-center">KKKK</p>
+                </div>
               </div>
             </div>
           </div>
